@@ -10,21 +10,11 @@ namespace TaskManagement.Controllers
 {
     [Route("api/tasks")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class TaskController : ControllerBase
     {
-        //private readonly TaskRepository _taskRepository;
         private readonly UserRepository _userRepository;
         private readonly CategoryRepository _categoryRepository;
-        //public TaskController(TaskRepository taskService, UserRepository userRepository, CategoryRepository categoryRepository)
-        //{
-        //    _taskRepository = taskService;
-        //    _userRepository = userRepository;
-        //    _categoryRepository = categoryRepository;
-        //}
-
-        //[HttpGet]
-        //public IActionResult GetAllTasks() => Ok(_taskRepository.GetAll());
 
         private readonly IMapper _mapper;
         private readonly TaskRepository _taskRepository;

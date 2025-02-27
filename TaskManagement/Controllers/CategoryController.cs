@@ -6,7 +6,7 @@ using TaskManagement.Repositories;
 
 namespace TaskManagement.Controllers
 {
-    [Authorize]
+    [Authorize(Policy = "AdminOnly")]
     [Route("api/categories")]
     [ApiController]
     public class CategoryController : ControllerBase

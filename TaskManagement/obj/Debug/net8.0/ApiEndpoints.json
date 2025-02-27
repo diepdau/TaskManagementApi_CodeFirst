@@ -158,7 +158,7 @@
   },
   {
     "ContainingType": "TaskManagement.Controllers.TaskController",
-    "Method": "GetAllTasks",
+    "Method": "GetTasks",
     "RelativePath": "api/tasks",
     "HttpMethod": "GET",
     "IsController": true,
@@ -237,25 +237,15 @@
   },
   {
     "ContainingType": "TaskManagement.Controllers.UserController",
-    "Method": "GetAllUsers",
-    "RelativePath": "api/users",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TaskManagement.Controllers.UserController",
-    "Method": "DeleteUser",
-    "RelativePath": "api/users/{id}",
-    "HttpMethod": "DELETE",
+    "Method": "AddRole",
+    "RelativePath": "api/users/add-role",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "role",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -270,8 +260,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "TaskManagement.Models.User",
+        "Name": "model",
+        "Type": "TaskManagement.DTOs.LoginDto",
         "IsRequired": true
       }
     ],
@@ -286,8 +276,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "TaskManagement.Models.User",
+        "Name": "model",
+        "Type": "TaskManagement.DTOs.RegisterDto",
         "IsRequired": true
       }
     ],

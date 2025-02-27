@@ -9,7 +9,7 @@ namespace TaskManagement.Repositories
         }
         public User? GetByUsername(string username)
         {
-            return _dbSet.FirstOrDefault(u => u.Username == username);
+            return _dbSet.FirstOrDefault(u => u.UserName == username);
          }
 
         public User? GetByEmail(string email) => _dbSet.FirstOrDefault(e => e.Email == email);

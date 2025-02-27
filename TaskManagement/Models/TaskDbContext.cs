@@ -13,11 +13,11 @@ namespace TaskManagement.Models
             public DbSet<TaskComment> TaskComments { get; set; }
             public DbSet<Label> Labels { get; set; }
             public DbSet<TaskLabel> TaskLabels { get; set; }
+            //public DbSet<User> Users { get; set; }
 
             protected override void OnModelCreating(ModelBuilder modelBuilder)
             {
-                base.OnModelCreating(modelBuilder); // Gọi base để Identity thiết lập bảng tự động
-
+                base.OnModelCreating(modelBuilder);
 
                 modelBuilder.Entity<Task>()
                 .ToTable("Tasks")
@@ -32,31 +32,31 @@ namespace TaskManagement.Models
                 .Property(t => t.CreatedAt)
                 .HasDefaultValueSql("GETDATE()");
 
-            modelBuilder.Entity<User>()
-                .ToTable("Users")
-                .HasKey(u => u.Id);
+            //modelBuilder.Entity<User>()
+            //    .ToTable("Users")
+            //    .HasKey(u => u.Id);
 
             //modelBuilder.Entity<User>()
-            //    .Property(u => u.Username)
+            //    .Property(u => u.UserName)
             //    .HasMaxLength(100);
 
             //modelBuilder.Entity<User>()
-            //    .HasIndex(u => u.Username)
+            //    .HasIndex(u => u.UserName)
             //    .IsUnique();
 
-            modelBuilder.Entity<User>()
-                .Property(u => u.Email)
-                .HasMaxLength(255)
-                .IsRequired();
+            //modelBuilder.Entity<User>()
+            //    .Property(u => u.Email)
+            //    .HasMaxLength(255)
+            //    .IsRequired();
 
-            modelBuilder.Entity<User>()
-                .Property(u => u.PasswordHash)
-                .HasColumnType("text")
-                .IsRequired();
+            //modelBuilder.Entity<User>()
+            //    .Property(u => u.PasswordHash)
+            //    .HasColumnType("text")
+            //    .IsRequired();
 
-            modelBuilder.Entity<User>()
-                .HasIndex(u => u.Email)
-                .IsUnique();
+            //modelBuilder.Entity<User>()
+            //    .HasIndex(u => u.Email)
+            //    .IsUnique();
 
             modelBuilder.Entity<Category>()
                 .ToTable("Categories")
