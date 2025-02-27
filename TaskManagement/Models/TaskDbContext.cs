@@ -1,23 +1,25 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+
 namespace TaskManagement.Models
 {
-    public class TaskDbContext : DbContext
-    {
-        public TaskDbContext(DbContextOptions<TaskDbContext> options) : base(options) { }
-
-        public DbSet<Task> Tasks { get; set; }
-        public DbSet<User> Users { get; set; }
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<TaskComment> TaskComments { get; set; }
-        public DbSet<Label> Labels { get; set; }
-        public DbSet<TaskLabel> TaskLabels { get; set; }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        public class TaskDbContext : IdentityDbContext<User, IdentityRole<int>, int>
         {
-            base.OnModelCreating(modelBuilder);
+            public TaskDbContext(DbContextOptions<TaskDbContext> options) : base(options) { }
 
-            modelBuilder.Entity<Task>()
+            public DbSet<Task> Tasks { get; set; }
+            public DbSet<Category> Categories { get; set; }
+            public DbSet<TaskComment> TaskComments { get; set; }
+            public DbSet<Label> Labels { get; set; }
+            public DbSet<TaskLabel> TaskLabels { get; set; }
+
+            protected override void OnModelCreating(ModelBuilder modelBuilder)
+            {
+                base.OnModelCreating(modelBuilder); // Gọi base để Identity thiết lập bảng tự động
+
+
+                modelBuilder.Entity<Task>()
                 .ToTable("Tasks")
                 .HasKey(t => t.Id);
 
@@ -34,13 +36,13 @@ namespace TaskManagement.Models
                 .ToTable("Users")
                 .HasKey(u => u.Id);
 
-            modelBuilder.Entity<User>()
-                .Property(u => u.Username)
-                .HasMaxLength(100);
+            //modelBuilder.Entity<User>()
+            //    .Property(u => u.Username)
+            //    .HasMaxLength(100);
 
-            modelBuilder.Entity<User>()
-                .HasIndex(u => u.Username)
-                .IsUnique();
+            //modelBuilder.Entity<User>()
+            //    .HasIndex(u => u.Username)
+            //    .IsUnique();
 
             modelBuilder.Entity<User>()
                 .Property(u => u.Email)

@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using TaskManagement.DTOs;
+using TaskManagement.Interfaces;
 using TaskManagement.Repositories;
 
 namespace TaskManagement.Controllers
@@ -10,18 +13,36 @@ namespace TaskManagement.Controllers
     [Authorize]
     public class TaskController : ControllerBase
     {
-        private readonly TaskRepository _taskRepository;
+        //private readonly TaskRepository _taskRepository;
         private readonly UserRepository _userRepository;
         private readonly CategoryRepository _categoryRepository;
-        public TaskController(TaskRepository taskService, UserRepository userRepository, CategoryRepository categoryRepository)
+        //public TaskController(TaskRepository taskService, UserRepository userRepository, CategoryRepository categoryRepository)
+        //{
+        //    _taskRepository = taskService;
+        //    _userRepository = userRepository;
+        //    _categoryRepository = categoryRepository;
+        //}
+
+        //[HttpGet]
+        //public IActionResult GetAllTasks() => Ok(_taskRepository.GetAll());
+
+        private readonly IMapper _mapper;
+        private readonly TaskRepository _taskRepository;
+
+        public TaskController(IMapper mapper, TaskRepository taskRepository, UserRepository userRepository, CategoryRepository categoryRepository)
         {
-            _taskRepository = taskService;
+            _mapper = mapper;
+            _taskRepository = taskRepository;
             _userRepository = userRepository;
             _categoryRepository = categoryRepository;
         }
 
         [HttpGet]
-        public IActionResult GetAllTasks() => Ok(_taskRepository.GetAll());
+        public IActionResult GetTasks()
+        {
+            var tasks = _taskRepository.GetAll();
+            return Ok(_mapper.Map<IEnumerable<TaskDto>>(tasks));
+        }
 
         [HttpGet("{id}")]
         public ActionResult GetTaskById(int id)
