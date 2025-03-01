@@ -1,0 +1,1117 @@
+D:\TaskManagementApi\bin\Debug\net8.0\appsettings.Development.json
+D:\TaskManagementApi\bin\Debug\net8.0\appsettings.json
+D:\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.staticwebassets.endpoints.json
+D:\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.exe
+D:\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.deps.json
+D:\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.runtimeconfig.json
+D:\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.dll
+D:\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.pdb
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.csproj.AssemblyReference.cache
+D:\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.AssemblyInfoInputs.cache
+D:\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.AssemblyInfo.cs
+D:\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.csproj.CoreCompileInputs.cache
+D:\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.MvcApplicationPartsAssemblyInfo.cs
+D:\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.MvcApplicationPartsAssemblyInfo.cache
+D:\TaskManagementApi\obj\Debug\net8.0\scopedcss\bundle\TaskManagementApi.styles.css
+D:\TaskManagementApi\obj\Debug\net8.0\staticwebassets.build.json
+D:\TaskManagementApi\obj\Debug\net8.0\staticwebassets.development.json
+D:\TaskManagementApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.TaskManagementApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.TaskManagementApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.build.TaskManagementApi.props
+D:\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TaskManagementApi.props
+D:\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TaskManagementApi.props
+D:\TaskManagementApi\obj\Debug\net8.0\staticwebassets.pack.json
+D:\TaskManagementApi\obj\Debug\net8.0\TaskMana.85ED9B13.Up2Date
+D:\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.dll
+D:\TaskManagementApi\obj\Debug\net8.0\refint\TaskManagementApi.dll
+D:\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.pdb
+D:\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.genruntimeconfig.cache
+D:\TaskManagementApi\obj\Debug\net8.0\ref\TaskManagementApi.dll
+D:\TaskManagementApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\TaskManagementApi\bin\Debug\net8.0\Azure.Core.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Azure.Identity.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Humanizer.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.ClientModel.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.CodeDom.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.Memory.Data.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.Text.Json.dll
+D:\TaskManagementApi\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\TaskManagementApi\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TaskManagementApi\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TaskManagementApi\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TaskManagementApi\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\TaskManagementApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\TaskManagementApi\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.sourcelink.json
+D:\TaskManagementApi\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\appsettings.Development.json
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\appsettings.json
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.exe
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.deps.json
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.runtimeconfig.json
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.pdb
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Azure.Core.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Azure.Identity.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Humanizer.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.ClientModel.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.CodeDom.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.Memory.Data.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.Text.Json.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.csproj.AssemblyReference.cache
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.AssemblyInfoInputs.cache
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.AssemblyInfo.cs
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.csproj.CoreCompileInputs.cache
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.MvcApplicationPartsAssemblyInfo.cs
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.MvcApplicationPartsAssemblyInfo.cache
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.sourcelink.json
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\staticwebassets.build.json
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\staticwebassets.development.json
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.TaskManagementApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.build.TaskManagementApi.props
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TaskManagementApi.props
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TaskManagementApi.props
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\staticwebassets.pack.json
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\scopedcss\bundle\TaskManagementApi.styles.css
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\TaskMana.85ED9B13.Up2Date
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\refint\TaskManagementApi.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.pdb
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.genruntimeconfig.cache
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\obj\Debug\net8.0\ref\TaskManagementApi.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\TaskManagementApi\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\hk2_n4\Thuctap\baitap\TaskManagementApi\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\appsettings.Development.json
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\appsettings.json
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.exe
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.deps.json
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.runtimeconfig.json
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.pdb
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Azure.Core.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Azure.Identity.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Humanizer.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.ClientModel.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.CodeDom.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Memory.Data.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Text.Json.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.csproj.AssemblyReference.cache
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.AssemblyInfoInputs.cache
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.AssemblyInfo.cs
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.csproj.CoreCompileInputs.cache
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.MvcApplicationPartsAssemblyInfo.cs
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.MvcApplicationPartsAssemblyInfo.cache
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.sourcelink.json
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets.build.json
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets.development.json
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.TaskManagementApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.build.TaskManagementApi.props
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TaskManagementApi.props
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TaskManagementApi.props
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets.pack.json
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\scopedcss\bundle\TaskManagementApi.styles.css
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskMana.85ED9B13.Up2Date
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\refint\TaskManagementApi.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.pdb
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.genruntimeconfig.cache
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\obj\Debug\net8.0\ref\TaskManagementApi.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\AutoMapper.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\hk2_n4\Thuctap\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.staticwebassets.endpoints.json
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.exe
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.deps.json
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.runtimeconfig.json
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.pdb
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\AutoMapper.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Azure.Core.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Azure.Identity.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Humanizer.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.ClientModel.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.CodeDom.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Memory.Data.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Text.Json.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.csproj.AssemblyReference.cache
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.AssemblyInfoInputs.cache
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.AssemblyInfo.cs
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.csproj.CoreCompileInputs.cache
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.MvcApplicationPartsAssemblyInfo.cs
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.MvcApplicationPartsAssemblyInfo.cache
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.sourcelink.json
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\scopedcss\bundle\TaskManagementApi.styles.css
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets.build.json
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets.development.json
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.TaskManagementApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.TaskManagementApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.build.TaskManagementApi.props
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TaskManagementApi.props
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TaskManagementApi.props
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets.pack.json
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskMana.85ED9B13.Up2Date
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.dll
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\refint\TaskManagementApi.dll
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.pdb
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.genruntimeconfig.cache
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\ref\TaskManagementApi.dll
+D:\CodeFirst\TaskManagementApi\bin\Debug\net8.0\appsettings.json
+D:\CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\appsettings.json
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.staticwebassets.endpoints.json
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.exe
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.deps.json
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.runtimeconfig.json
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.pdb
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\AutoMapper.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Azure.Core.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Azure.Identity.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Humanizer.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.ClientModel.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.CodeDom.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Memory.Data.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Text.Json.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.csproj.AssemblyReference.cache
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.AssemblyInfoInputs.cache
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.AssemblyInfo.cs
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.csproj.CoreCompileInputs.cache
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.MvcApplicationPartsAssemblyInfo.cs
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.MvcApplicationPartsAssemblyInfo.cache
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.sourcelink.json
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\scopedcss\bundle\TaskManagementApi.styles.css
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets.build.json
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets.development.json
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.TaskManagementApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.TaskManagementApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.build.TaskManagementApi.props
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TaskManagementApi.props
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TaskManagementApi.props
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets.pack.json
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskMana.85ED9B13.Up2Date
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\refint\TaskManagementApi.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.pdb
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.genruntimeconfig.cache
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\obj\Debug\net8.0\ref\TaskManagementApi.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\MailKit.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\MimeKit.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\TaskManagementApi_CodeFirst\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\appsettings.json
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.exe
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.deps.json
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.runtimeconfig.json
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\TaskManagementApi.pdb
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\AutoMapper.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Azure.Core.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Azure.Identity.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Humanizer.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\MailKit.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\MimeKit.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.ClientModel.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.CodeDom.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.Memory.Data.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.Text.Json.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.csproj.AssemblyReference.cache
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.AssemblyInfoInputs.cache
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.AssemblyInfo.cs
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.csproj.CoreCompileInputs.cache
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.MvcApplicationPartsAssemblyInfo.cs
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.MvcApplicationPartsAssemblyInfo.cache
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.sourcelink.json
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\staticwebassets.build.json
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\staticwebassets.development.json
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.TaskManagementApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.build.TaskManagementApi.props
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TaskManagementApi.props
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TaskManagementApi.props
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\staticwebassets.pack.json
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\scopedcss\bundle\TaskManagementApi.styles.css
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\TaskMana.85ED9B13.Up2Date
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\refint\TaskManagementApi.dll
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.pdb
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\TaskManagementApi.genruntimeconfig.cache
+D:\hk2_n4\Thuctap\baitap\Code_First\New folder\TaskManagementApi\obj\Debug\net8.0\ref\TaskManagementApi.dll
