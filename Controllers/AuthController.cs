@@ -41,7 +41,7 @@ namespace TaskManagementApi.Controllers
 
             var user = new User { UserName = model.Username, Email = model.Email };
             var result = await _userManager.CreateAsync(user, model.Password);
-
+                await _userManager.AddToRoleAsync(user, "user");
             if (!result.Succeeded)
                 return BadRequest(result.Errors);
 
