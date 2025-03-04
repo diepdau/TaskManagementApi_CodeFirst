@@ -15,7 +15,7 @@ namespace TaskManagementApi.Controllers
 {
     [Route("api/users")]
     [ApiController]
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public class UserController : ControllerBase
     {
         private readonly UserRepository _userRepository;
@@ -28,7 +28,7 @@ namespace TaskManagementApi.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles ="Admin")]
+       
         public IActionResult GetAllUsers()
         {
             var users = _userRepository.GetAll();

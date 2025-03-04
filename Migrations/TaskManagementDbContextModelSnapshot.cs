@@ -248,6 +248,37 @@ namespace TaskManagementApi.Migrations
                     b.ToTable("Tasks", (string)null);
                 });
 
+            modelBuilder.Entity("TaskManagementApi.Models.TaskAttachment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FileUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TaskId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("UploadedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETDATE()");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TaskId");
+
+                    b.ToTable("TaskAttachments", (string)null);
+                });
+
             modelBuilder.Entity("TaskManagementApi.Models.TaskComment", b =>
                 {
                     b.Property<int>("Id")
@@ -431,6 +462,17 @@ namespace TaskManagementApi.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("TaskManagementApi.Models.TaskAttachment", b =>
+                {
+                    b.HasOne("TaskManagementApi.Models.Task", "Task")
+                        .WithMany("TaskAttachments")
+                        .HasForeignKey("TaskId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Task");
+                });
+
             modelBuilder.Entity("TaskManagementApi.Models.TaskComment", b =>
                 {
                     b.HasOne("TaskManagementApi.Models.Task", "Task")
@@ -480,6 +522,8 @@ namespace TaskManagementApi.Migrations
 
             modelBuilder.Entity("TaskManagementApi.Models.Task", b =>
                 {
+                    b.Navigation("TaskAttachments");
+
                     b.Navigation("TaskComments");
 
                     b.Navigation("TaskLabels");

@@ -15,6 +15,7 @@ namespace TaskManagementApi.Models
         public DbSet<TaskComment> TaskComments { get; set; }
         public DbSet<Label> Labels { get; set; }
         public DbSet<TaskLabel> TaskLabels { get; set; }
+        public DbSet<TaskAttachment> TaskAttachment { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -37,6 +38,15 @@ namespace TaskManagementApi.Models
             modelBuilder.Entity<Task>()
                 .Property(t => t.CreatedAt)
                 .HasDefaultValueSql("GETDATE()");
+
+            modelBuilder.Entity<TaskAttachment>()
+                .ToTable("TaskAttachments")
+                .HasKey(t => t.Id);
+
+            modelBuilder.Entity<TaskAttachment>()
+                .Property(t => t.UploadedAt)
+                .HasDefaultValueSql("GETDATE()");
+
 
             modelBuilder.Entity<Category>()
                 .ToTable("Categories")
@@ -75,6 +85,14 @@ namespace TaskManagementApi.Models
                 .WithMany(c => c.Tasks)
                 .HasForeignKey(t => t.CategoryId)
                 .OnDelete(DeleteBehavior.SetNull);
+
+           
+            //TaskAttachment
+            modelBuilder.Entity<TaskAttachment>()
+               .HasOne(t => t.Task)
+               .WithMany(u => u.TaskAttachments)
+               .HasForeignKey(t => t.TaskId)
+               .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<TaskComment>()
                 .HasOne(tc => tc.Task)
