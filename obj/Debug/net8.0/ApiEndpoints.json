@@ -149,7 +149,7 @@
   },
   {
     "ContainingType": "TaskManagementApi.Controllers.TaskAttachmentController",
-    "Method": "DeleteAttachment",
+    "Method": "DeleteAttach",
     "RelativePath": "api/TaskAttachment/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
@@ -165,7 +165,7 @@
   },
   {
     "ContainingType": "TaskManagementApi.Controllers.TaskAttachmentController",
-    "Method": "UploadAttachment",
+    "Method": "UploadAttachments",
     "RelativePath": "api/TaskAttachment/{taskId}",
     "HttpMethod": "POST",
     "IsController": true,
@@ -177,8 +177,8 @@
         "IsRequired": true
       },
       {
-        "Name": "file",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "Name": "files",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
         "IsRequired": false
       }
     ],

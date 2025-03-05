@@ -65,10 +65,8 @@ builder.Services.AddScoped<TaskCommentRepository>();
 builder.Services.AddScoped<TaskLabelRepository>();
 builder.Services.AddScoped<LabelRepository>();
 builder.Services.AddScoped<IBlobStorageService, BlobStorageService>();
-builder.Services.AddScoped<TaskAttachmentRepository>();
 builder.Services.AddTransient<ITaskAttachmentRepository, TaskAttachmentRepository>();
 
-//builder.Services.AddTransient<TaskAttachment>(new TaskAttachment());
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -93,7 +91,6 @@ builder.Services.AddAuthentication(options =>
         };
     });
 
-
 builder.Services.AddAuthorization();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddAzureClients(clientBuilder =>
@@ -111,7 +108,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseMiddleware<RequestLoggingMiddleware>();
-
 
 app.UseHttpsRedirection();
 app.UseAuthentication();

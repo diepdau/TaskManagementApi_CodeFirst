@@ -1,12 +1,14 @@
 ﻿using TaskManagementApi.Interfaces;
 using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
+using Azure;
+using System.ComponentModel;
 namespace TaskManagementApi.Services
 {
     public class BlobStorageService : IBlobStorageService
     {
         private readonly BlobServiceClient _blobServiceClient;
-        private readonly string _containerName = "myblobcontainer";
+        private readonly string _containerName = "task-attachments";
 
         public BlobStorageService(IConfiguration configuration)
         {
@@ -30,9 +32,21 @@ namespace TaskManagementApi.Services
         public async Task<bool> DeleteFileAsync(string fileName)
         {
             var blobContainer = _blobServiceClient.GetBlobContainerClient(_containerName);
-            var blobClient = blobContainer.GetBlobClient(fileName);
+            try
+            {
+                var blobClient = blobContainer.GetBlobClient(fileName);
+                return await blobClient.DeleteIfExistsAsync();
+            }
+            catch (RequestFailedException e)
+            {
+                Console.WriteLine("HTTP error code {0}: {1}",
+                                    e.Status, e.ErrorCode);
+                Console.WriteLine(e.Message);
+                Console.ReadLine();
+                return false;
+            }
 
-            return await blobClient.DeleteIfExistsAsync();
         }
+
     }
 }

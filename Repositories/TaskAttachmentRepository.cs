@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using TaskManagementApi.Interfaces;
 using TaskManagementApi.Models;
 
@@ -27,7 +28,6 @@ namespace TaskManagementApi.Repositories
             {
                  _dbSet.Remove(attachment);
                 await _context.SaveChangesAsync();
-
             }
         }
         public async Task<IEnumerable<TaskAttachment>> GetAttachmentsByTaskId(int taskId)
@@ -35,7 +35,7 @@ namespace TaskManagementApi.Repositories
             return await _dbSet.Where(a => a.TaskId == taskId).ToListAsync();
         }
 
-
-
+        public async Task<TaskAttachment> GetAttachmentsById(int id) => await _dbSet.FindAsync(id);
+       
     }
 }
