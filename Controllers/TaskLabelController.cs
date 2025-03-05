@@ -27,10 +27,20 @@ namespace TaskManagementApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddTaskLabel([FromBody] TaskLabelDto taskLabelDto)
+        public async Task<IActionResult> AddTaskLabel([FromBody] TaskLabelDto taskLabelDto)
         {
-            if (taskLabelDto?.TaskId <= 0 || taskLabelDto?.LabelId <= 0)
-                return BadRequest("Invalid TaskId or LabelId.");
+            if (!ModelState.IsValid)
+            {
+                var errors = ModelState
+                    .Where(x => x.Value.Errors.Count > 0)
+                    .Select(x => new
+                    {
+                        Field = x.Key,
+                        Errors = x.Value.Errors.Select(e => e.ErrorMessage).ToList()
+                    }).ToList();
+
+                return BadRequest(new { Errors = errors });
+            }
 
             if (_taskRepository.GetById(taskLabelDto.TaskId) == null)
                 return NotFound($"Task with Id {taskLabelDto.TaskId} does not exist.");
@@ -38,18 +48,18 @@ namespace TaskManagementApi.Controllers
             if (_labelRepository.GetById(taskLabelDto.LabelId) == null)
                 return NotFound($"Label with Id {taskLabelDto.LabelId} does not exist.");
 
-            if (_taskLabelRepository.Exists(taskLabelDto.TaskId, taskLabelDto.LabelId))
+            if (await _taskLabelRepository.Exists(taskLabelDto.TaskId, taskLabelDto.LabelId))
                 return Conflict("TaskLabel already exists.");
 
             var taskLabel = _mapper.Map<TaskLabel>(taskLabelDto); 
-            _taskLabelRepository.Add(taskLabel);
+            await _taskLabelRepository.Add(taskLabel);
             return CreatedAtAction(nameof(AddTaskLabel), new { taskLabel.TaskId, taskLabel.LabelId }, taskLabelDto);
         }
 
         [HttpDelete]
-        public IActionResult RemoveLabel([FromBody] TaskLabelDto taskLabelDto)
+        public async Task<IActionResult> RemoveLabel([FromBody] TaskLabelDto taskLabelDto)
         {
-            if (!_taskLabelRepository.RemoveLabel(taskLabelDto.TaskId, taskLabelDto.LabelId))
+            if (!(await _taskLabelRepository.RemoveLabel(taskLabelDto.TaskId, taskLabelDto.LabelId)))
             {
                 return NotFound(new { message = $"Label with Id {taskLabelDto.LabelId} is not associated with Task Id {taskLabelDto.TaskId}." });
             }

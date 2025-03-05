@@ -8,18 +8,18 @@ namespace TaskManagementApi.Repositories
     public class TaskLabelRepository : GenericRepository<TaskLabel>
     {
         public TaskLabelRepository(TaskManagementDbContext context) : base(context) { }
-        public bool Exists(int taskId, int labelId)
+        public async Task<bool> Exists(int taskId, int labelId)
         {
-            return _dbSet.Any(tl => tl.TaskId == taskId && tl.LabelId == labelId);
+            return await _dbSet.AnyAsync(tl => tl.TaskId == taskId && tl.LabelId == labelId);
         }
-        public bool RemoveLabel(int taskId, int labelId)
+        public async Task<bool> RemoveLabel(int taskId, int labelId)
         {
-            var taskLabel = _dbSet.FirstOrDefault(tl => tl.TaskId == taskId && tl.LabelId == labelId);
+            var taskLabel = await _dbSet.FirstOrDefaultAsync(tl => tl.TaskId == taskId && tl.LabelId == labelId);
 
             if (taskLabel == null) return false;
 
             _dbSet.Remove(taskLabel);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
             return true;
         }
 

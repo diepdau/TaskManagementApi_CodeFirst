@@ -36,9 +36,18 @@ namespace TaskManagementApi.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterDto model)
         {
-            if (await _userManager.FindByEmailAsync(model.Email) != null)
-                return BadRequest("Email is already in use.");
+            if (!ModelState.IsValid)
+            {
+                var errors = ModelState
+                    .Where(x => x.Value.Errors.Count > 0)
+                    .Select(x => new
+                    {
+                        Field = x.Key,
+                        Errors = x.Value.Errors.Select(e => e.ErrorMessage).ToList()
+                    }).ToList();
 
+                return BadRequest(new { Errors = errors });
+            }
             var user = new User { UserName = model.Username, Email = model.Email };
             var result = await _userManager.CreateAsync(user, model.Password);
             await _userManager.AddToRoleAsync(user, "user");
@@ -51,25 +60,46 @@ namespace TaskManagementApi.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDto model)
         {
-            var user = await _userManager.FindByEmailAsync(model.Email);
-            if (user == null || !await _userManager.CheckPasswordAsync(user, model.Password))
-                return Unauthorized("Invalid username or password");
-
-            var roles = await _userManager.GetRolesAsync(user);
-            var token = await GenerateJwtTokenLogin(user);
-
-            return Ok(new
+            if (!ModelState.IsValid)
             {
-                Token = token,
-                User = new
+                var errors = ModelState
+                    .Where(x => x.Value.Errors.Count > 0)
+                    .Select(x => new
+                    {
+                        Field = x.Key,
+                        Errors = x.Value.Errors.Select(e => e.ErrorMessage).ToList()
+                    }).ToList();
+
+                return BadRequest(new { Errors = errors });
+            }
+
+            var user = await _signInManager.PasswordSignInAsync(model.Email, model.Password, false, lockoutOnFailure: true);
+
+            if (user.Succeeded)
+            {
+                var appUser = await _userManager.FindByEmailAsync(model.Email);
+                var roles = await _userManager.GetRolesAsync(appUser);
+
+                var token = await GenerateJwtTokenLogin(appUser);
+
+                return Ok(new
                 {
-                    Id = user.Id,
-                    Username = user.UserName,
-                    Email = user.Email,
-                    Roles = roles
-                }
-            });
+                    Token = token,
+                    User = new
+                    {
+                        Id = appUser.Id,
+                        Username = appUser.UserName,
+                        Email = appUser.Email,
+                        Roles = roles
+                    }
+                });
+            }
+            else
+            {
+                return Unauthorized("Invalid username or password");
+            }
         }
+
         private async Task<string> GenerateJwtTokenLogin(User user)
         {
             var principal = await _signInManager.CreateUserPrincipalAsync(user);

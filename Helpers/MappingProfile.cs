@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using TaskManagementApi.DTOs;
+using TaskManagementApi.DTOs.TaskDto;
 using TaskManagementApi.Models;
 
 namespace TaskManagementApi.Helpers
@@ -9,7 +10,7 @@ namespace TaskManagementApi.Helpers
         public MappingProfile()
         {
             CreateMap<User, UserDto>().ReverseMap();
-            CreateMap<Models.Task, TaskDto>().ReverseMap();
+            CreateMap<Models.Task, TaskCreateDto>().ReverseMap();
             CreateMap<Category, CategoryDto>().ReverseMap();
             CreateMap<TaskComment, TaskCommentDto>().ReverseMap();
             CreateMap<TaskLabel, TaskLabelDto>().ReverseMap();

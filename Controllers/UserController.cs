@@ -28,24 +28,24 @@ namespace TaskManagementApi.Controllers
         }
 
         [HttpGet]
-       
-        public IActionResult GetAllUsers()
+
+        public async Task<IActionResult> GetAllUsers()
         {
-            var users = _userRepository.GetAll();
+            var users = await _userRepository.GetAll();
             var userDtos = _mapper.Map<IEnumerable<UserDto>>(users);  
             return Ok(userDtos);
         }
 
         [HttpDelete("{id}")]
-        public IActionResult DeleteUser(int id)
+        public async Task<IActionResult> DeleteUser(int id)
         {
-            var user = _userRepository.GetById(id);
+            var user = await _userRepository.GetById(id);
             if (user== null)
             {
                 return NotFound(new { message = $"User with Id {id} does not exist." });
             }
 
-            _userRepository.Delete(id);
+            await _userRepository.Delete(id);
             return NoContent();
         }
 

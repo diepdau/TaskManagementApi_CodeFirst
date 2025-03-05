@@ -220,7 +220,7 @@
     "Parameters": [
       {
         "Name": "taskDto",
-        "Type": "TaskManagementApi.DTOs.TaskDto",
+        "Type": "TaskManagementApi.DTOs.TaskDto.TaskCreateDto",
         "IsRequired": true
       }
     ],
@@ -257,7 +257,7 @@
       },
       {
         "Name": "taskDto",
-        "Type": "TaskManagementApi.DTOs.TaskDto",
+        "Type": "TaskManagementApi.DTOs.TaskDto.TaskUpdateDto",
         "IsRequired": true
       }
     ],

@@ -188,22 +188,22 @@
           "content": {
             "application/json-patch+json": {
               "schema": {
-                "$ref": "#/components/schemas/TaskDto"
+                "$ref": "#/components/schemas/TaskCreateDto"
               }
             },
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/TaskDto"
+                "$ref": "#/components/schemas/TaskCreateDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/TaskDto"
+                "$ref": "#/components/schemas/TaskCreateDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/TaskDto"
+                "$ref": "#/components/schemas/TaskCreateDto"
               }
             }
           }
@@ -256,22 +256,22 @@
           "content": {
             "application/json-patch+json": {
               "schema": {
-                "$ref": "#/components/schemas/TaskDto"
+                "$ref": "#/components/schemas/TaskUpdateDto"
               }
             },
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/TaskDto"
+                "$ref": "#/components/schemas/TaskUpdateDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/TaskDto"
+                "$ref": "#/components/schemas/TaskUpdateDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/TaskDto"
+                "$ref": "#/components/schemas/TaskUpdateDto"
               }
             }
           }
@@ -663,7 +663,62 @@
         },
         "additionalProperties": false
       },
-      "TaskDto": {
+      "TaskCreateDto": {
+        "required": [
+          "categoryId",
+          "description",
+          "isCompleted",
+          "title",
+          "userId"
+        ],
+        "type": "object",
+        "properties": {
+          "title": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "description": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "isCompleted": {
+            "type": "boolean"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "categoryId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TaskLabelDto": {
+        "required": [
+          "labelId",
+          "taskId"
+        ],
+        "type": "object",
+        "properties": {
+          "taskId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "labelId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TaskUpdateDto": {
         "required": [
           "title"
         ],
@@ -695,24 +750,6 @@
             "type": "string",
             "format": "date-time",
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "TaskLabelDto": {
-        "required": [
-          "labelId",
-          "taskId"
-        ],
-        "type": "object",
-        "properties": {
-          "taskId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "labelId": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false

@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using TaskManagementApi.DTOs;
+using TaskManagementApi.DTOs.TaskDto;
 using TaskManagementApi.Models;
 using TaskManagementApi.Repositories;
 
@@ -31,20 +31,30 @@ namespace TaskManagementApi.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAllTasks()=> Ok(_taskRepository.GetAll());
+        public async Task<IActionResult> GetAllTasks()=> Ok(await _taskRepository.GetAll());
 
         [HttpGet("{id}")]
-        public ActionResult GetTaskById(int id)
+        public async Task<IActionResult> GetTaskById(int id)
         {
-            var task = _taskRepository.GetById(id);
+            var task = await _taskRepository.GetById(id);
             if (task == null) return NotFound();
             return Ok(task);
         }
         [HttpPost]
-        public IActionResult AddTask([FromBody] TaskDto taskDto)
+        public async Task<IActionResult> AddTask([FromBody] TaskCreateDto taskDto)
         {
-            if (taskDto == null || string.IsNullOrWhiteSpace(taskDto.Description))
-                return BadRequest("Requires entering all fields.");
+            if (!ModelState.IsValid)
+            {
+                var errors = ModelState
+                    .Where(x => x.Value.Errors.Count > 0)
+                    .Select(x => new
+                    {
+                        Field = x.Key,
+                        Errors = x.Value.Errors.Select(e => e.ErrorMessage).ToList()
+                    }).ToList();
+
+                return BadRequest(new { Errors = errors });
+            }
 
             if (_userRepository.GetById((int)taskDto.UserId) == null)
                 return NotFound($"User with Id {taskDto.UserId} does not exist.");
@@ -53,20 +63,20 @@ namespace TaskManagementApi.Controllers
                 return NotFound($"Category with Id {taskDto.CategoryId} does not exist.");
 
             var task = _mapper.Map<Models.Task>(taskDto);
-            _taskRepository.Add(task);
+            await _taskRepository.Add(task);
             return CreatedAtAction(nameof(GetTaskById), new { id = task.Id }, task);
         }
 
         [HttpPut("{id}")]
-        public IActionResult UpdateTask(int id, [FromBody] TaskDto taskDto)
+        public async Task<IActionResult>  UpdateTask(int id, [FromBody] TaskUpdateDto taskDto)
         {
-            var existingTask = _taskRepository.GetById(id);
+            var existingTask = await _taskRepository.GetById(id);
             if (existingTask == null)
-                return NotFound(new { message = "Task not found." });
+                return NotFound();
             var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
             if (string.IsNullOrEmpty(userIdClaim))
             {
-                return Unauthorized(new { message = "User ID not found in token." });
+                return Unauthorized();
             }
             var currentUserId = int.Parse(userIdClaim);
             var userRole = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
@@ -94,15 +104,15 @@ namespace TaskManagementApi.Controllers
                 existingTask.CategoryId = taskDto.CategoryId;
             }
             _mapper.Map(taskDto, existingTask);
-            _taskRepository.Update(existingTask);
-            var updatedTaskDto = _mapper.Map<TaskDto>(existingTask);
+            await _taskRepository.Update(existingTask);
+            var updatedTaskDto = _mapper.Map<TaskUpdateDto>(existingTask);
             return Ok(new { message = "Task updated successfully.", updatedTask = updatedTaskDto });
         }
 
         [HttpDelete("{id}")]
-        public IActionResult DeleteTask(int id)
+        public async Task<IActionResult> DeleteTask(int id)
         {
-            var task = _taskRepository.GetById(id);
+            var task = await _taskRepository.GetById(id);
             if (task == null)
                 return NotFound(new { message = $"Task with Id {id} does not exist." });
 
@@ -119,7 +129,7 @@ namespace TaskManagementApi.Controllers
                 return StatusCode(403, new { message = "You are not authorized to delete this task." });
             }
 
-            _taskRepository.Delete(id);
+           await _taskRepository.Delete(id);
 
             return Ok(new { message = "Task deleted successfully.", taskId = id });
         }

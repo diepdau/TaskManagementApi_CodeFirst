@@ -22,15 +22,15 @@ namespace TaskManagementApi.Controllers
             _mapper = mapper;
         }
         [HttpGet]
-        public IActionResult GetAllLabel()
+        public async Task<IActionResult> GetAllLabel()
         {
-            var labels = _labelRepository.GetAll(); 
+            var labels = await _labelRepository.GetAll(); 
             return Ok(labels);
         }
 
         [HttpPost]
         [Authorize(Roles = "Admin")]
-        public IActionResult AddLabel([FromBody] LabelDto labelDto)
+        public async Task<IActionResult> AddLabel([FromBody] LabelDto labelDto)
         {
             if (labelDto == null || string.IsNullOrWhiteSpace(labelDto.Name))
                 return BadRequest("Label name is required.");
@@ -38,7 +38,7 @@ namespace TaskManagementApi.Controllers
             if (_labelRepository.GetByName(labelDto.Name) != null)
                 return Conflict("Label name must be unique.");
             var label = _mapper.Map<Label>(labelDto);
-            _labelRepository.Add(label);
+            await _labelRepository.Add(label);
             return CreatedAtAction(nameof(AddLabel), new { id = label.Id }, label);
         }
     }

@@ -25,16 +25,16 @@ namespace TaskManagementApi.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAllCategories()
+        public async Task<IActionResult> GetAllCategories()
         {
-            var categories = _categoryRepository.GetAll();
+            var categories = await _categoryRepository.GetAll();
             var categoriesDto = _mapper.Map<IEnumerable<CategoryDto>>(categories);
             return Ok(categoriesDto);
         }
 
         [HttpPost]
         [Authorize(Roles = "Admin")]
-        public IActionResult AddCategory([FromBody] CategoryDto categoryDto)
+        public async Task<IActionResult> AddCategory([FromBody] CategoryDto categoryDto)
         {
             if (categoryDto == null || string.IsNullOrWhiteSpace(categoryDto.Name) || string.IsNullOrWhiteSpace(categoryDto.Description))
                 return BadRequest("Category name and description are required.");
@@ -43,36 +43,11 @@ namespace TaskManagementApi.Controllers
                 return Conflict("Category name must be unique.");
 
             var category = _mapper.Map<Category>(categoryDto);
-            _categoryRepository.Add(category);
+           await _categoryRepository.Add(category);
 
             var createdCategoryDto = _mapper.Map<Category>(category);
             return CreatedAtAction(nameof(GetAllCategories), new { id = createdCategoryDto.Id }, createdCategoryDto);
         }
 
-
-
-
-        //[HttpGet("search")]
-        //public IActionResult GetCategories(string? keyword, int page = 1, int pageSize = 3)
-        //{
-        //    int totalItems;
-        //    var categories = _categoryRepository.GetPaged(
-        //        filter: c => string.IsNullOrEmpty(keyword) || c.Name.Contains(keyword) || c.Description.Contains(keyword),
-        //        page: page,
-        //        pageSize: pageSize,
-        //        totalItems: out totalItems
-        //    );
-
-        //    var categoriesDto = _mapper.Map<IEnumerable<CategoryDto>>(categories);
-
-        //    return Ok(new
-        //    {
-        //        TotalItems = totalItems,
-        //        Page = page,
-        //        PageSize = pageSize,
-        //        TotalPages = (int)Math.Ceiling((double)totalItems / pageSize),
-        //        Data = categoriesDto
-        //    });
-        //}
     }
 }

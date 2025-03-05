@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace TaskManagementApi.DTOs
+namespace TaskManagementApi.DTOs.TaskDto
 {
-    public class TaskDto
+    public class TaskUpdateDto
     {
         [Required(ErrorMessage = "Title is required.")]
         public string Title { get; set; }

@@ -15,47 +15,32 @@ namespace TaskManagementApi.Repositories
             _dbSet = context.Set<T>();
         }
 
-        public IEnumerable<T> GetAll() => _dbSet.ToList();
+        public async Task<IEnumerable<T>> GetAll() => await _dbSet.ToListAsync();
+        public async Task<T> GetById(int id)=> await _dbSet.FindAsync(id);
+        
 
-        public T GetById(int id) => _dbSet.Find(id);
-
-        public void Add(T entity)
+        public async System.Threading.Tasks.Task Add(T entity)
         {
-            _dbSet.Add(entity);
-            _context.SaveChanges();
+            await _dbSet.AddAsync(entity);
+            await _context.SaveChangesAsync();
         }
 
-        public void Update(T entity)
+        public async System.Threading.Tasks.Task Update(T entity)
         {
             _dbSet.Update(entity);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
 
-        public void Delete(int id)
+        public async System.Threading.Tasks.Task Delete(int id)
         {
-            var entity = _dbSet.Find(id);
+            var entity = await _dbSet.FindAsync(id);
             if (entity != null)
             {
-                _dbSet.Remove(entity);
-                _context.SaveChanges();
+                 _dbSet.Remove(entity);
+                await  _context.SaveChangesAsync();
             }
         }
-        public IEnumerable<T> GetPaged(Func<T, bool>? filter, int page, int pageSize, out int totalItems)
-        {
-            var query = _dbSet.AsQueryable();
 
-            if (filter != null)
-            {
-                query = query.Where(filter).AsQueryable();
-            }
-
-            totalItems = query.Count();
-
-            return query
-                .Skip((page - 1) * pageSize)
-                .Take(pageSize)
-                .ToList();
-        }
     }
 
 }

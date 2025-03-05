@@ -27,7 +27,7 @@ namespace TaskManagementApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddComment([FromBody] TaskCommentDto commentDto)
+        public async Task<IActionResult> AddComment([FromBody] TaskCommentDto commentDto)
         {
             if (commentDto == null || string.IsNullOrWhiteSpace(commentDto.Content))
                 return BadRequest("Comment content is required.");
@@ -40,12 +40,12 @@ namespace TaskManagementApi.Controllers
 
             var comment = _mapper.Map<TaskComment>(commentDto); 
             comment.CreatedAt = DateTime.UtcNow;
-            _taskCommentRepository.Add(comment);
+            await _taskCommentRepository.Add(comment);
             return CreatedAtAction(nameof(AddComment), new { id = comment.Id }, comment);
         }
 
         [HttpDelete("{id}")]
-        public IActionResult DeleteComment(int id)
+        public async Task<IActionResult> DeleteComment(int id)
         {
             var comment = _taskCommentRepository.GetById(id);
             if (comment == null)
@@ -53,7 +53,7 @@ namespace TaskManagementApi.Controllers
                 return NotFound(new { message = $"Comment with Id {id} does not exist." });
             }
 
-            _taskCommentRepository.Delete(id);
+            await _taskCommentRepository.Delete(id);
             return NoContent();
         }
     }
