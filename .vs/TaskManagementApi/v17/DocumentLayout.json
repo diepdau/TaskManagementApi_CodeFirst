@@ -129,10 +129,6 @@
       "RelativeMoniker": "D:0:0:{8B41FCE5-0075-452B-9703-0B12DED01B09}|TaskManagementApi.csproj|solutionrelative:taskmanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B41FCE5-0075-452B-9703-0B12DED01B09}|TaskManagementApi.csproj|d:\\cf33\\taskmanagementapi_codefirst\\dtos\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B41FCE5-0075-452B-9703-0B12DED01B09}|TaskManagementApi.csproj|solutionrelative:dtos\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B41FCE5-0075-452B-9703-0B12DED01B09}|TaskManagementApi.csproj|d:\\cf33\\taskmanagementapi_codefirst\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B41FCE5-0075-452B-9703-0B12DED01B09}|TaskManagementApi.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -184,21 +180,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 196,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\CF33\\TaskManagementApi_CodeFirst\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\CF33\\TaskManagementApi_CodeFirst\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-28T00:50:09.085Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -222,8 +205,7 @@
               "RelativeToolTip": "Services\\BlobStorageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T00:53:07.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T00:53:07.979Z"
             },
             {
               "$type": "Document",
@@ -235,8 +217,7 @@
               "RelativeToolTip": "Controllers\\TaskAttachmentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T00:54:21.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T00:54:21.491Z"
             },
             {
               "$type": "Document",
@@ -248,8 +229,7 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAA5wCoAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T17:04:35.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T17:04:35.639Z"
             },
             {
               "$type": "Document",
@@ -261,8 +241,7 @@
               "RelativeToolTip": "Controllers\\CategoryController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T16:51:17.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T16:51:17.555Z"
             },
             {
               "$type": "Document",
@@ -274,8 +253,7 @@
               "RelativeToolTip": "Controllers\\TaskCommentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T16:33:54.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T16:33:54.15Z"
             },
             {
               "$type": "Document",
@@ -287,8 +265,19 @@
               "RelativeToolTip": "Interfaces\\ITaskAttachmentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T00:51:36.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T00:51:36.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CF33\\TaskManagementApi_CodeFirst\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\CF33\\TaskManagementApi_CodeFirst\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-28T00:50:09.085Z"
             },
             {
               "$type": "Document",
@@ -300,8 +289,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAjwHQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T16:21:35.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T16:21:35.443Z"
             },
             {
               "$type": "Document",
@@ -313,8 +301,7 @@
               "RelativeToolTip": "Models\\TaskAttachment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T00:52:47.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T00:52:47.098Z"
             },
             {
               "$type": "Document",
@@ -326,8 +313,7 @@
               "RelativeToolTip": "Interfaces\\IBlobStorageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T00:50:08.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T00:50:08.536Z"
             },
             {
               "$type": "Document",
@@ -339,8 +325,7 @@
               "RelativeToolTip": "Models\\TaskManagementDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T16:20:25.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T16:20:25.712Z"
             },
             {
               "$type": "Document",
@@ -352,8 +337,7 @@
               "RelativeToolTip": "Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T01:57:38.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T01:57:38.442Z"
             },
             {
               "$type": "Document",
@@ -365,8 +349,7 @@
               "RelativeToolTip": "Repositories\\GenericRepository.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAowCEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T02:43:07.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T02:43:07.014Z"
             },
             {
               "$type": "Document",
@@ -378,8 +361,7 @@
               "RelativeToolTip": "Interfaces\\IGenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T02:08:25.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T02:08:25.081Z"
             },
             {
               "$type": "Document",
@@ -391,8 +373,7 @@
               "RelativeToolTip": "Repositories\\TaskCommentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T02:43:04.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T02:43:04.981Z"
             },
             {
               "$type": "Document",
@@ -404,8 +385,7 @@
               "RelativeToolTip": "..\\FunctionApp1\\.gitignore",
               "ViewState": "AgIAAIcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-03-03T09:59:33.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T09:59:33.743Z"
             },
             {
               "$type": "Document",
@@ -417,8 +397,7 @@
               "RelativeToolTip": "AzureClientFactoryBuilderExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T06:40:44.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T06:40:44.091Z"
             },
             {
               "$type": "Document",
@@ -430,8 +409,7 @@
               "RelativeToolTip": "TaskManagementApi.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-02-28T00:47:58.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T00:47:58.343Z"
             },
             {
               "$type": "Document",
@@ -443,8 +421,7 @@
               "RelativeToolTip": "Controllers\\LabelController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T16:31:20.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T16:31:20.28Z"
             },
             {
               "$type": "Document",
@@ -568,18 +545,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ForgotPasswordDto.cs",
-              "DocumentMoniker": "D:\\CF33\\TaskManagementApi_CodeFirst\\DTOs\\ForgotPasswordDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\ForgotPasswordDto.cs",
-              "ToolTip": "D:\\CF33\\TaskManagementApi_CodeFirst\\DTOs\\ForgotPasswordDto.cs",
-              "RelativeToolTip": "DTOs\\ForgotPasswordDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T08:10:51.275Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 30,
               "Title": "Function1.cs",
               "DocumentMoniker": "D:\\CF33\\FunctionApp1\\Function1.cs",
@@ -604,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\CF33\\TaskManagementApi_CodeFirst\\DTOs\\LoginDto.cs",
               "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
@@ -616,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "TaskManagementDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\CF33\\TaskManagementApi_CodeFirst\\Migrations\\TaskManagementDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\TaskManagementDbContextModelSnapshot.cs",
@@ -628,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "UserDto.cs",
               "DocumentMoniker": "D:\\CF33\\TaskManagementApi_CodeFirst\\DTOs\\UserDto.cs",
               "RelativeDocumentMoniker": "DTOs\\UserDto.cs",
@@ -640,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "TaskCommentDto.cs",
               "DocumentMoniker": "D:\\CF33\\TaskManagementApi_CodeFirst\\DTOs\\TaskCommentDto.cs",
               "RelativeDocumentMoniker": "DTOs\\TaskCommentDto.cs",
@@ -652,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "D:\\CF33\\TaskManagementApi_CodeFirst\\DTOs\\RegisterDto.cs",
               "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
@@ -664,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "LabelDto.cs",
               "DocumentMoniker": "D:\\CF33\\TaskManagementApi_CodeFirst\\DTOs\\LabelDto.cs",
               "RelativeDocumentMoniker": "DTOs\\LabelDto.cs",
@@ -676,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "CategoryDto.cs",
               "DocumentMoniker": "D:\\CF33\\TaskManagementApi_CodeFirst\\DTOs\\CategoryDto.cs",
               "RelativeDocumentMoniker": "DTOs\\CategoryDto.cs",
@@ -688,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "TaskDto.cs",
               "DocumentMoniker": "D:\\CF33\\TaskManagementApi_CodeFirst\\DTOs\\TaskDto.cs",
               "RelativeDocumentMoniker": "DTOs\\TaskDto.cs",
@@ -700,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "TaskLabelController.cs",
               "DocumentMoniker": "D:\\CF33\\TaskManagementApi_CodeFirst\\Controllers\\TaskLabelController.cs",
               "RelativeDocumentMoniker": "Controllers\\TaskLabelController.cs",
@@ -712,7 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "TaskLabelDto.cs",
               "DocumentMoniker": "D:\\CF33\\TaskManagementApi_CodeFirst\\DTOs\\TaskLabelDto.cs",
               "RelativeDocumentMoniker": "DTOs\\TaskLabelDto.cs",
@@ -724,7 +689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "D:\\CF33\\TaskManagementApi_CodeFirst\\Helpers\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Helpers\\MappingProfile.cs",
