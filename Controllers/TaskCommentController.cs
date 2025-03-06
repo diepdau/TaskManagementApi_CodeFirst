@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TaskManagementApi.DTOs;
+using TaskManagementApi.Interfaces;
 using TaskManagementApi.Models;
 using TaskManagementApi.Repositories;
 
@@ -13,12 +14,12 @@ namespace TaskManagementApi.Controllers
     [Authorize]
     public class TaskCommentController : ControllerBase
     {
-        private readonly TaskCommentRepository _taskCommentRepository;
-        private readonly TaskRepository _taskRepository;
-        private readonly UserRepository _userRepository;
+        private readonly IGenericRepository<TaskComment> _taskCommentRepository;
+        private readonly IGenericRepository<Models.Task> _taskRepository;
+        private readonly IGenericRepository<User> _userRepository;
         private readonly IMapper _mapper; 
 
-        public TaskCommentController(TaskCommentRepository taskCommentRepository, UserRepository userRepository, TaskRepository taskRepository, IMapper mapper)
+        public TaskCommentController(IGenericRepository<TaskComment> taskCommentRepository, IGenericRepository<User> userRepository, IGenericRepository<Models.Task> taskRepository, IMapper mapper)
         {
             _taskCommentRepository = taskCommentRepository;
             _taskRepository = taskRepository;
@@ -29,13 +30,15 @@ namespace TaskManagementApi.Controllers
         [HttpPost]
         public async Task<IActionResult> AddComment([FromBody] TaskCommentDto commentDto)
         {
-            if (commentDto == null || string.IsNullOrWhiteSpace(commentDto.Content))
-                return BadRequest("Comment content is required.");
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
 
-            if (_taskRepository.GetById(commentDto.TaskId) == null)
+            if (await _taskRepository.GetById(commentDto.TaskId) == null)
                 return NotFound($"Task with Id {commentDto.TaskId} does not exist.");
 
-            if (_userRepository.GetById(commentDto.UserId) == null)
+            if (await   _userRepository.GetById(commentDto.UserId) == null)
                 return NotFound($"User with Id {commentDto.UserId} does not exist.");
 
             var comment = _mapper.Map<TaskComment>(commentDto); 
@@ -47,7 +50,7 @@ namespace TaskManagementApi.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteComment(int id)
         {
-            var comment = _taskCommentRepository.GetById(id);
+            var comment =await _taskCommentRepository.GetById(id);
             if (comment == null)
             {
                 return NotFound(new { message = $"Comment with Id {id} does not exist." });

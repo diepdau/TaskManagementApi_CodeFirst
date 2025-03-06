@@ -13,6 +13,7 @@ using System.Data;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.WebUtilities;
 using Azure;
+using Microsoft.AspNetCore.Authorization;
 
 namespace TaskManagementApi.Controllers
 {
@@ -48,11 +49,21 @@ namespace TaskManagementApi.Controllers
 
                 return BadRequest(new { Errors = errors });
             }
-            var user = new User { UserName = model.Username, Email = model.Email };
+            var user = new User
+            {
+                UserName = model.Username,
+                Email = model.Email,
+                SecurityStamp = Guid.NewGuid().ToString()
+            };
             var result = await _userManager.CreateAsync(user, model.Password);
-            await _userManager.AddToRoleAsync(user, "user");
             if (!result.Succeeded)
                 return BadRequest(result.Errors);
+            user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+                return StatusCode(500, "User creation failed unexpectedly.");
+            var roleResult = await _userManager.AddToRoleAsync(user, "user");
+            if (!roleResult.Succeeded)
+                return BadRequest(roleResult.Errors);
 
             return Ok(new { message = "User registered successfully", userId = user.Id });
         }
@@ -73,31 +84,31 @@ namespace TaskManagementApi.Controllers
                 return BadRequest(new { Errors = errors });
             }
 
-            var user = await _signInManager.PasswordSignInAsync(model.Email, model.Password, false, lockoutOnFailure: true);
-
-            if (user.Succeeded)
-            {
-                var appUser = await _userManager.FindByEmailAsync(model.Email);
-                var roles = await _userManager.GetRolesAsync(appUser);
-
-                var token = await GenerateJwtTokenLogin(appUser);
-
-                return Ok(new
-                {
-                    Token = token,
-                    User = new
-                    {
-                        Id = appUser.Id,
-                        Username = appUser.UserName,
-                        Email = appUser.Email,
-                        Roles = roles
-                    }
-                });
-            }
-            else
+            var appUser = await _userManager.FindByEmailAsync(model.Email);
+            if (appUser == null)
             {
                 return Unauthorized("Invalid username or password");
             }
+            var result = await _signInManager.PasswordSignInAsync(appUser.UserName, model.Password, false, lockoutOnFailure: true);
+
+            if (!result.Succeeded)
+            {
+                return Unauthorized("Invalid username or password");
+            }
+            var roles = await _userManager.GetRolesAsync(appUser);
+            var token = await GenerateJwtTokenLogin(appUser);
+
+            return Ok(new
+            {
+                Token = token,
+                User = new
+                {
+                    Id = appUser.Id,
+                    Username = appUser.UserName,
+                    Email = appUser.Email,
+                    Roles = roles
+                }
+            });
         }
 
         private async Task<string> GenerateJwtTokenLogin(User user)
@@ -113,6 +124,13 @@ namespace TaskManagementApi.Controllers
                 signingCredentials: new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"])), SecurityAlgorithms.HmacSha256)
             );
             return token;
+        }
+        [HttpPost("logout")]
+        [Authorize]
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return Ok(new { message = "Logged out successfully" });
         }
 
     }

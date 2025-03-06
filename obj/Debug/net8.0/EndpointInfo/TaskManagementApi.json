@@ -77,6 +77,18 @@
         }
       }
     },
+    "/api/auth/logout": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/categories": {
       "get": {
         "tags": [
@@ -487,40 +499,6 @@
             "description": "OK"
           }
         }
-      },
-      "delete": {
-        "tags": [
-          "TaskLabel"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json-patch+json": {
-              "schema": {
-                "$ref": "#/components/schemas/TaskLabelDto"
-              }
-            },
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/TaskLabelDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/TaskLabelDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/TaskLabelDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
       }
     },
     "/api/users": {
@@ -536,6 +514,72 @@
       }
     },
     "/api/users/{id}": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateUserDto"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateUserDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateUserDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateUserDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
       "delete": {
         "tags": [
           "User"
@@ -563,6 +607,7 @@
     "schemas": {
       "CategoryDto": {
         "required": [
+          "description",
           "name"
         ],
         "type": "object",
@@ -573,8 +618,9 @@
             "type": "string"
           },
           "description": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 200,
+            "minLength": 0,
+            "type": "string"
           }
         },
         "additionalProperties": false
@@ -645,14 +691,21 @@
         "type": "object",
         "properties": {
           "taskId": {
+            "maximum": 2147483647,
+            "minimum": 1,
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "default": 1
           },
           "userId": {
+            "maximum": 2147483647,
+            "minimum": 1,
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "default": 1
           },
           "content": {
+            "maxLength": 500,
             "minLength": 1,
             "type": "string"
           },
@@ -685,12 +738,18 @@
             "type": "boolean"
           },
           "userId": {
+            "maximum": 2147483647,
+            "minimum": 1,
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "default": 1
           },
           "categoryId": {
+            "maximum": 2147483647,
+            "minimum": 1,
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "default": 1
           },
           "createdAt": {
             "type": "string",
@@ -708,12 +767,18 @@
         "type": "object",
         "properties": {
           "taskId": {
+            "maximum": 2147483647,
+            "minimum": 1,
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "default": 1
           },
           "labelId": {
+            "maximum": 2147483647,
+            "minimum": 1,
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "default": 1
           }
         },
         "additionalProperties": false
@@ -737,11 +802,15 @@
             "nullable": true
           },
           "userId": {
+            "maximum": 2147483647,
+            "minimum": 1,
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
           "categoryId": {
+            "maximum": 2147483647,
+            "minimum": 1,
             "type": "integer",
             "format": "int32",
             "nullable": true
@@ -749,6 +818,20 @@
           "createdAt": {
             "type": "string",
             "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateUserDto": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
             "nullable": true
           }
         },

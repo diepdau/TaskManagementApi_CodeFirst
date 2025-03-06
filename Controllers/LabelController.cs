@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using TaskManagementApi.DTOs;
 using TaskManagementApi.Models;
 using TaskManagementApi.Repositories;
-
+using TaskManagementApi.Interfaces;
 namespace TaskManagementApi.Controllers
 {
     [Route("api/labels")]
@@ -13,10 +13,10 @@ namespace TaskManagementApi.Controllers
     [Authorize]
     public class LabelController : ControllerBase
     {
-        private readonly LabelRepository _labelRepository;
+        private readonly IGenericRepository<Label> _labelRepository;
         private readonly IMapper _mapper;
 
-        public LabelController(LabelRepository labelRepository, IMapper mapper)
+        public LabelController(IGenericRepository<Label> labelRepository, IMapper mapper)
         {
             _labelRepository = labelRepository;
             _mapper = mapper;
@@ -32,10 +32,19 @@ namespace TaskManagementApi.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> AddLabel([FromBody] LabelDto labelDto)
         {
-            if (labelDto == null || string.IsNullOrWhiteSpace(labelDto.Name))
-                return BadRequest("Label name is required.");
+            if (!ModelState.IsValid)
+            {
+                var errors = ModelState
+                    .Where(x => x.Value.Errors.Count > 0)
+                    .Select(x => new
+                    {
+                        Field = x.Key,
+                        Errors = x.Value.Errors.Select(e => e.ErrorMessage).ToList()
+                    }).ToList();
 
-            if (_labelRepository.GetByName(labelDto.Name) != null)
+                return BadRequest(new { Errors = errors });
+            }
+            if ((await _labelRepository.GetAsync(o => o.Name == labelDto.Name)) != null)
                 return Conflict("Label name must be unique.");
             var label = _mapper.Map<Label>(labelDto);
             await _labelRepository.Add(label);

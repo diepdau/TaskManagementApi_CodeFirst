@@ -74,12 +74,9 @@ builder.Services.Configure<IdentityOptions>(options =>
     "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
     options.User.RequireUniqueEmail = true;
 });
-builder.Services.AddScoped<UserRepository>();
-builder.Services.AddScoped<TaskRepository>();
-builder.Services.AddScoped<CategoryRepository>();
-builder.Services.AddScoped<TaskCommentRepository>();
-builder.Services.AddScoped<TaskLabelRepository>();
-builder.Services.AddScoped<LabelRepository>();
+
+//builder.Services.AddScoped<TaskLabelRepository>();
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<IBlobStorageService, BlobStorageService>();
 builder.Services.AddTransient<ITaskAttachmentRepository, TaskAttachmentRepository>();
 

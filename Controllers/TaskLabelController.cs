@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TaskManagementApi.DTOs;
+using TaskManagementApi.Interfaces;
 using TaskManagementApi.Models;
 using TaskManagementApi.Repositories;
 
@@ -14,11 +15,11 @@ namespace TaskManagementApi.Controllers
     [Authorize]
     public class TaskLabelController : ControllerBase
     {
-        private readonly TaskLabelRepository _taskLabelRepository;
-        private readonly TaskRepository _taskRepository;
-        private readonly LabelRepository _labelRepository;
+        private readonly IGenericRepository<TaskLabel> _taskLabelRepository;
+        private readonly IGenericRepository<Models.Task> _taskRepository;
+        private readonly IGenericRepository<Label> _labelRepository;
         private readonly IMapper _mapper;
-        public TaskLabelController(TaskLabelRepository taskLabelRepository, TaskRepository taskRepository, LabelRepository labelRepository, IMapper mapper)
+        public TaskLabelController(IGenericRepository<TaskLabel> taskLabelRepository, IGenericRepository<Models.Task> taskRepository, IGenericRepository<Label> labelRepository, IMapper mapper)
         {
             _taskLabelRepository = taskLabelRepository;
             _taskRepository = taskRepository;
@@ -42,28 +43,17 @@ namespace TaskManagementApi.Controllers
                 return BadRequest(new { Errors = errors });
             }
 
-            if (_taskRepository.GetById(taskLabelDto.TaskId) == null)
+            if (await _taskRepository.GetById(taskLabelDto.TaskId) == null)
                 return NotFound($"Task with Id {taskLabelDto.TaskId} does not exist.");
 
-            if (_labelRepository.GetById(taskLabelDto.LabelId) == null)
+            if (await _labelRepository.GetById(taskLabelDto.LabelId) == null)
                 return NotFound($"Label with Id {taskLabelDto.LabelId} does not exist.");
-
-            if (await _taskLabelRepository.Exists(taskLabelDto.TaskId, taskLabelDto.LabelId))
-                return Conflict("TaskLabel already exists.");
 
             var taskLabel = _mapper.Map<TaskLabel>(taskLabelDto); 
             await _taskLabelRepository.Add(taskLabel);
             return CreatedAtAction(nameof(AddTaskLabel), new { taskLabel.TaskId, taskLabel.LabelId }, taskLabelDto);
         }
 
-        [HttpDelete]
-        public async Task<IActionResult> RemoveLabel([FromBody] TaskLabelDto taskLabelDto)
-        {
-            if (!(await _taskLabelRepository.RemoveLabel(taskLabelDto.TaskId, taskLabelDto.LabelId)))
-            {
-                return NotFound(new { message = $"Label with Id {taskLabelDto.LabelId} is not associated with Task Id {taskLabelDto.TaskId}." });
-            }
-            return NoContent();
-        }
+       
     }
 }

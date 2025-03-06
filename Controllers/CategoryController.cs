@@ -6,6 +6,8 @@ using TaskManagementApi.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using AutoMapper;
 using TaskManagementApi.DTOs;
+using TaskManagementApi.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace TaskManagementApi.Controllers
 {
@@ -15,10 +17,10 @@ namespace TaskManagementApi.Controllers
     [Authorize]
     public class CategoryController : ControllerBase
     {
-        private readonly CategoryRepository _categoryRepository;
+        private readonly IGenericRepository<Category> _categoryRepository;
         private readonly IMapper _mapper;
 
-        public CategoryController(CategoryRepository categoryRepository, IMapper mapper)
+        public CategoryController(IGenericRepository<Category> categoryRepository, IMapper mapper)
         {
             _categoryRepository = categoryRepository;
             _mapper = mapper;
@@ -36,10 +38,19 @@ namespace TaskManagementApi.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> AddCategory([FromBody] CategoryDto categoryDto)
         {
-            if (categoryDto == null || string.IsNullOrWhiteSpace(categoryDto.Name) || string.IsNullOrWhiteSpace(categoryDto.Description))
-                return BadRequest("Category name and description are required.");
+            if (!ModelState.IsValid)
+            {
+                var errors = ModelState
+                    .Where(x => x.Value.Errors.Count > 0)
+                    .Select(x => new
+                    {
+                        Field = x.Key,
+                        Errors = x.Value.Errors.Select(e => e.ErrorMessage).ToList()
+                    }).ToList();
 
-            if (_categoryRepository.GetByName(categoryDto.Name) != null)
+                return BadRequest(new { Errors = errors });
+            }
+            if ((await _categoryRepository.GetAsync(o => o.Name == categoryDto.Name))!=null)
                 return Conflict("Category name must be unique.");
 
             var category = _mapper.Map<Category>(categoryDto);

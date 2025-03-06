@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 using System.ComponentModel.DataAnnotations;
 using AutoMapper;
 using TaskManagementApi.DTOs;
+using Microsoft.AspNetCore.Identity;
 namespace TaskManagementApi.Controllers
 {
     [Route("api/users")]
@@ -18,12 +19,14 @@ namespace TaskManagementApi.Controllers
     [Authorize(Roles = "Admin")]
     public class UserController : ControllerBase
     {
-        private readonly UserRepository _userRepository;
-        private readonly IMapper _mapper;  
+        private readonly UserManager<User> _userManager;
+        private readonly SignInManager<User> _signInManager;
+        private readonly IMapper _mapper;
 
-        public UserController(UserRepository userRepository, IMapper mapper)
+        public UserController(UserManager<User> userManager, SignInManager<User> signInManager, IMapper mapper)
         {
-            _userRepository = userRepository;
+            _userManager = userManager;
+            _signInManager = signInManager;
             _mapper = mapper;
         }
 
@@ -31,21 +34,48 @@ namespace TaskManagementApi.Controllers
 
         public async Task<IActionResult> GetAllUsers()
         {
-            var users = await _userRepository.GetAll();
-            var userDtos = _mapper.Map<IEnumerable<UserDto>>(users);  
+            var users = _userManager.Users.ToList();
+            var userDtos = _mapper.Map<IEnumerable<UserDto>>(users);
             return Ok(userDtos);
         }
 
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetUserById(int id)
+        {
+            var user = await _userManager.FindByIdAsync(id.ToString());
+            if (user == null)
+                return NotFound(new { message = $"User with Id {id} not found." });
+
+            var userDto = _mapper.Map<UserDto>(user);
+            return Ok(userDto);
+        }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateUser(int id, [FromBody] UpdateUserDto model)
+        {
+            var user = await _userManager.FindByIdAsync(id.ToString());
+            if (user == null)
+                return NotFound(new { message = $"User with Id {id} not found." });
+
+            user.Email = model.Email ?? user.Email;
+            user.UserName = model.Username ?? user.UserName;
+
+            var result = await _userManager.UpdateAsync(user);
+            if (!result.Succeeded)
+                return BadRequest(result.Errors);
+
+            return Ok(new { message = "User updated successfully" });
+        }
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {
-            var user = await _userRepository.GetById(id);
-            if (user== null)
-            {
-                return NotFound(new { message = $"User with Id {id} does not exist." });
-            }
+            var user = await _userManager.FindByIdAsync(id.ToString());
+            if (user == null)
+                return NotFound(new { message = $"User with Id {id} not found." });
 
-            await _userRepository.Delete(id);
+            var result = await _userManager.DeleteAsync(user);
+            if (!result.Succeeded)
+                return BadRequest(result.Errors);
+
             return NoContent();
         }
 
