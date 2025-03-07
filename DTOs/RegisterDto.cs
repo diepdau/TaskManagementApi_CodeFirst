@@ -8,6 +8,7 @@ namespace TaskManagementApi.DTOs
 
         public string Username { get; set; } = string.Empty;
 
+
         [Required(ErrorMessage = "Email is required."), EmailAddress]
         public string Email { get; set; } = string.Empty;
 

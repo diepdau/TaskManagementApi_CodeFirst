@@ -65,7 +65,14 @@ namespace TaskManagementApi.Controllers
             if (!roleResult.Succeeded)
                 return BadRequest(roleResult.Errors);
 
-            return Ok(new { message = "User registered successfully", userId = user.Id });
+            return Ok(new { message = "User registered successfully",
+                User = new
+                {
+                    Id = user.Id,
+                    Username = user.UserName,
+                    Email = user.Email
+                }
+            });
         }
 
         [HttpPost("login")]
