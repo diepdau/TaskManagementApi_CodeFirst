@@ -48,12 +48,27 @@ namespace TaskManagementApi.Controllers
 
             if (await _labelRepository.GetById(taskLabelDto.LabelId) == null)
                 return NotFound($"Label with Id {taskLabelDto.LabelId} does not exist.");
+            var existingTaskLabel = await _taskLabelRepository.GetAsync(
+                       tl => tl.TaskId == taskLabelDto.TaskId && tl.LabelId == taskLabelDto.LabelId);
 
-            var taskLabel = _mapper.Map<TaskLabel>(taskLabelDto); 
+            if (existingTaskLabel != null)
+                return Conflict("This TaskLabel already exists.");
+
+            var taskLabel = _mapper.Map<TaskLabel>(taskLabelDto);
             await _taskLabelRepository.Add(taskLabel);
+
             return CreatedAtAction(nameof(AddTaskLabel), new { taskLabel.TaskId, taskLabel.LabelId }, taskLabelDto);
         }
 
-       
+        [HttpDelete("{taskId}/{labelId}")]
+        public async Task<IActionResult> DeleteTaskLabel(int taskId, int labelId)
+        {
+            var taskLabel = await _taskLabelRepository.GetAsync(tl => tl.TaskId == taskId && tl.LabelId == labelId);
+            if (taskLabel == null)
+                return NotFound("TaskLabel not found.");
+
+            await _taskLabelRepository.DeleteT(taskLabel);
+            return NoContent();
+        }
     }
 }

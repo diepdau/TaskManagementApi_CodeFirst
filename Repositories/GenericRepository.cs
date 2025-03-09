@@ -64,6 +64,7 @@ namespace TaskManagementApi.Repositories
                 _dbSet.Attach(entity);
             }
             _dbSet.Remove(entity);
+            await _context.SaveChangesAsync();
         }
 
     }

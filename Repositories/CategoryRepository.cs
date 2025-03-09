@@ -8,16 +8,6 @@ namespace TaskManagementApi.Repositories
         public CategoryRepository(TaskManagementDbContext context) : base(context)
         {
         }
-        public async Task<Category>? GetByName(string name)
-        {
-            return await _dbSet.FirstOrDefaultAsync(c => c.Name == name);
-        }
-        //public IEnumerable<Category> GetAllWithTasks()
-        //{
-        //    return _context.Categories.Include(c => c.Tasks).ToList();
-        //}
-
-
     }
 
 }
