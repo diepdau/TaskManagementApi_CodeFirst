@@ -142,6 +142,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TaskManagementApi.Controllers.TaskLabelController",
+    "Method": "DeleteTaskLabel",
+    "RelativePath": "api/task-labels/{taskId}/{labelId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "labelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TaskManagementApi.Controllers.TaskAttachmentController",
     "Method": "DeleteAttach",
     "RelativePath": "api/TaskAttachment/{id}",

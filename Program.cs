@@ -15,6 +15,8 @@ using Microsoft.OpenApi.Models;
 using TaskManagementApi.Services;
 
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Builder;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -103,6 +105,13 @@ builder.Services.AddAuthentication(options =>
         };
     });
 
+//builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+//    .AddCookie(options =>
+//    {
+//        options.ExpireTimeSpan = TimeSpan.FromMinutes(20);
+//        options.SlidingExpiration = true;
+//        options.AccessDeniedPath = "/Forbidden/";
+//    });
 builder.Services.AddAuthorization();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddAzureClients(clientBuilder =>

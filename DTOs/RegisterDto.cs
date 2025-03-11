@@ -1,13 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace TaskManagementApi.DTOs
 {
+    [Index(nameof(Username), IsUnique = true)]
+    [Index(nameof(Email), IsUnique = true)]
     public class RegisterDto
     {
-        [Required(ErrorMessage = "Password is required.")]
-
+        [Required(ErrorMessage = "Username is required.")]
         public string Username { get; set; } = string.Empty;
-
 
         [Required(ErrorMessage = "Email is required."), EmailAddress]
         public string Email { get; set; } = string.Empty;

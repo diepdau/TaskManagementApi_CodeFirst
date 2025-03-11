@@ -16,7 +16,7 @@ namespace TaskManagementApi.Controllers
 {
     [Route("api/users")]
     [ApiController]
-    [Authorize(Roles = "Admin")]
+    [Authorize]
     public class UserController : ControllerBase
     {
         private readonly UserManager<User> _userManager;
@@ -78,6 +78,7 @@ namespace TaskManagementApi.Controllers
 
             return NoContent();
         }
+        
 
     }
 }

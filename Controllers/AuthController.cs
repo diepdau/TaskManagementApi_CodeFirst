@@ -14,6 +14,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.WebUtilities;
 using Azure;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace TaskManagementApi.Controllers
 {
@@ -104,7 +105,13 @@ namespace TaskManagementApi.Controllers
             }
             var roles = await _userManager.GetRolesAsync(appUser);
             var token = await GenerateJwtTokenLogin(appUser);
-
+            Response.Cookies.Append("AccessToken", token, new CookieOptions
+            {
+                HttpOnly = true,
+                Secure = true,
+                SameSite = SameSiteMode.Strict,
+                Expires = DateTime.UtcNow.AddHours(3)
+            });
             return Ok(new
             {
                 Token = token,
@@ -136,9 +143,11 @@ namespace TaskManagementApi.Controllers
         [Authorize]
         public async Task<IActionResult> Logout()
         {
+            Response.Cookies.Delete("AccessToken");
             await _signInManager.SignOutAsync();
             return Ok(new { message = "Logged out successfully" });
         }
+
 
     }
 }
