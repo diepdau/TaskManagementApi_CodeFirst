@@ -3,27 +3,34 @@ using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using TaskManagementApi.Interfaces;
 using TaskManagementApi.Models;
+using TaskManagementApi.Repositories;
 
 namespace TaskManagementApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/task-attachments")]
     [ApiController]
     public class TaskAttachmentController : ControllerBase
     {
         private readonly ITaskAttachmentRepository _attachmentRepository;
         private readonly IBlobStorageService _blobService;
+        private readonly IGenericRepository<Models.Task> _taskRepository;
 
-        public TaskAttachmentController(ITaskAttachmentRepository attachmentRepository, IBlobStorageService blobService)
+        public TaskAttachmentController(ITaskAttachmentRepository attachmentRepository, IBlobStorageService blobService, IGenericRepository<Models.Task> taskRepository)
         {
             _attachmentRepository = attachmentRepository;
             _blobService = blobService;
+            _taskRepository = taskRepository;
         }
 
 
 
         [HttpPost("{taskId}")]
         public async Task<IActionResult> UploadAttachments(int taskId, List<IFormFile> files)
+
         {
+            var tasksLabel = await _taskRepository.GetAsync(tl => tl.Id == taskId);
+            if (tasksLabel == null)
+                return NotFound("Task not found.");
             if (files == null || files.Count == 0)
             {
                 return BadRequest("No files uploaded.");

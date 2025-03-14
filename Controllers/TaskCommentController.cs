@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using TaskManagementApi.DTOs;
 using TaskManagementApi.Interfaces;
 using TaskManagementApi.Models;
@@ -11,7 +12,7 @@ namespace TaskManagementApi.Controllers
 {
     [Route("api/task-comments")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class TaskCommentController : ControllerBase
     {
         private readonly IGenericRepository<TaskComment> _taskCommentRepository;
@@ -26,7 +27,20 @@ namespace TaskManagementApi.Controllers
             _userRepository = userRepository;
             _mapper = mapper;
         }
-
+        [HttpGet]
+        public async Task<IActionResult> GetAllTaskComment()
+        {
+            var tasksComment = _taskCommentRepository.GetAll();
+            return Ok(tasksComment);
+        }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetTaskCommentByTaskId(int id)
+        {
+            var tasksComment = await _taskCommentRepository.GetAsync(tl => tl.TaskId == id);
+            if (tasksComment == null)
+                return NotFound("Task comment not found.");
+            return Ok(tasksComment);
+        }
         [HttpPost]
         public async Task<IActionResult> AddComment([FromBody] TaskCommentDto commentDto)
         {
@@ -58,6 +72,32 @@ namespace TaskManagementApi.Controllers
 
             await _taskCommentRepository.Delete(id);
             return NoContent();
+        }
+        [HttpGet("task/{taskId}")]
+        public async Task<IActionResult> GetTaskCommentsByTaskId(int taskId)
+        {
+            var task = await _taskRepository.GetById(taskId);
+            if (task == null)
+            {
+                return NotFound($"Task with Id {taskId} does not exist.");
+            }
+
+            var comments = await _taskCommentRepository.GetAll()
+            .Where(c => c.TaskId == taskId)
+            .Include(c => c.User)
+                .ToListAsync(); 
+
+            var result = comments.Select(c => new
+            {
+                c.Id,
+                c.TaskId,
+                c.UserId,
+                UserName = c.User != null ? c.User.UserName : "Unknown",
+                c.Content,
+                c.CreatedAt
+            });
+
+            return Ok(result);
         }
     }
 }

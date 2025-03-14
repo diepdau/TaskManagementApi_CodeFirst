@@ -24,7 +24,7 @@ namespace TaskManagementApi.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllLabel()
         {
-            var labels = await _labelRepository.GetAll(); 
+            var labels = _labelRepository.GetAll();
             return Ok(labels);
         }
 

@@ -11,6 +11,7 @@ namespace TaskManagementApi.Helpers
         {
             CreateMap<User, UserDto>().ReverseMap();
             CreateMap<Models.Task, TaskCreateDto>().ReverseMap();
+            CreateMap<Models.Task, TaskUpdateDto>().ReverseMap();
             CreateMap<Category, CategoryDto>().ReverseMap();
             CreateMap<TaskComment, TaskCommentDto>().ReverseMap();
             CreateMap<TaskLabel, TaskLabelDto>().ReverseMap();

@@ -29,7 +29,7 @@ namespace TaskManagementApi.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllCategories()
         {
-            var categories = await _categoryRepository.GetAll();
+            var categories =  _categoryRepository.GetAll();
             var categoriesDto = _mapper.Map<IEnumerable<CategoryDto>>(categories);
             return Ok(categoriesDto);
         }

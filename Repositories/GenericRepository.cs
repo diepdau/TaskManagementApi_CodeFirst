@@ -19,7 +19,11 @@ namespace TaskManagementApi.Repositories
             _dbSet = context.Set<T>();
         }
 
-        public async Task<IEnumerable<T>> GetAll() => await _dbSet.AsNoTracking().ToListAsync();
+        //public async Task<IEnumerable<T>> GetAll() => await _dbSet.AsNoTracking().ToListAsync();
+        public IQueryable<T> GetAll()
+        {
+            return _dbSet.AsNoTracking();
+        }
         public async Task<T> GetById(int id)=> await _dbSet.FindAsync(id);
         
 
@@ -66,7 +70,20 @@ namespace TaskManagementApi.Repositories
             _dbSet.Remove(entity);
             await _context.SaveChangesAsync();
         }
+        public async Task<IEnumerable<T>> GetPaged(Func<T, bool>? filter, int page, int pageSize)
+        {
+            var query = _dbSet.AsQueryable(); 
 
+            if (filter != null)
+            {
+                query = query.Where(filter).AsQueryable();
+            }
+
+            return query
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+        }
     }
 
 }

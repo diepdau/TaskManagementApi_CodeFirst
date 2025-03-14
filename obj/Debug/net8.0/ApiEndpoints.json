@@ -94,6 +94,69 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TaskManagementApi.Controllers.TaskAttachmentController",
+    "Method": "DeleteAttach",
+    "RelativePath": "api/task-attachments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagementApi.Controllers.TaskAttachmentController",
+    "Method": "UploadAttachments",
+    "RelativePath": "api/task-attachments/{taskId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "files",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagementApi.Controllers.TaskAttachmentController",
+    "Method": "GetAttachments",
+    "RelativePath": "api/task-attachments/{taskId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagementApi.Controllers.TaskCommentController",
+    "Method": "GetAllTaskComment",
+    "RelativePath": "api/task-comments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TaskManagementApi.Controllers.TaskCommentController",
     "Method": "AddComment",
     "RelativePath": "api/task-comments",
@@ -104,6 +167,22 @@
       {
         "Name": "commentDto",
         "Type": "TaskManagementApi.DTOs.TaskCommentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagementApi.Controllers.TaskCommentController",
+    "Method": "GetTaskCommentByTaskId",
+    "RelativePath": "api/task-comments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -126,6 +205,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TaskManagementApi.Controllers.TaskCommentController",
+    "Method": "GetTaskCommentsByTaskId",
+    "RelativePath": "api/task-comments/task/{taskId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagementApi.Controllers.TaskLabelController",
+    "Method": "GetAllTaskLabel",
+    "RelativePath": "api/task-labels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TaskManagementApi.Controllers.TaskLabelController",
     "Method": "AddTaskLabel",
     "RelativePath": "api/task-labels",
@@ -136,6 +241,22 @@
       {
         "Name": "taskLabelDto",
         "Type": "TaskManagementApi.DTOs.TaskLabelDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagementApi.Controllers.TaskLabelController",
+    "Method": "GetTaskLabelByTaskId",
+    "RelativePath": "api/task-labels/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -163,46 +284,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "TaskManagementApi.Controllers.TaskAttachmentController",
-    "Method": "DeleteAttach",
-    "RelativePath": "api/TaskAttachment/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TaskManagementApi.Controllers.TaskAttachmentController",
-    "Method": "UploadAttachments",
-    "RelativePath": "api/TaskAttachment/{taskId}",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "taskId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "files",
-        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TaskManagementApi.Controllers.TaskAttachmentController",
-    "Method": "GetAttachments",
-    "RelativePath": "api/TaskAttachment/{taskId}",
+    "ContainingType": "TaskManagementApi.Controllers.TaskLabelController",
+    "Method": "GetTaskLabelsByTaskId",
+    "RelativePath": "api/task-labels/task/{taskId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -290,6 +374,32 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagementApi.Controllers.TaskController",
+    "Method": "GetTasks",
+    "RelativePath": "api/tasks/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "keyword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

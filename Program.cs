@@ -104,14 +104,14 @@ builder.Services.AddAuthentication(options =>
 
         };
     });
-
-//builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-//    .AddCookie(options =>
-//    {
-//        options.ExpireTimeSpan = TimeSpan.FromMinutes(20);
-//        options.SlidingExpiration = true;
-//        options.AccessDeniedPath = "/Forbidden/";
-//    });
+//bỏ cái trên nếu mà không cần jwt bearar, thì bên be vẫn dùng được. nhưng bên fe thì vẫn phải gửi jwt, ?
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(20);
+        options.SlidingExpiration = true;
+        options.AccessDeniedPath = "/Forbidden/";
+    });
 builder.Services.AddAuthorization();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddAzureClients(clientBuilder =>
@@ -141,10 +141,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseMiddleware<RequestLoggingMiddleware>();
-
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
+
+
 app.UseCors("AllowAll");
 app.MapControllers();
 app.Run();

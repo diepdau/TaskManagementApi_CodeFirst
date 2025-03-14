@@ -316,7 +316,46 @@
         }
       }
     },
-    "/api/TaskAttachment/{taskId}": {
+    "/api/tasks/search": {
+      "get": {
+        "tags": [
+          "Task"
+        ],
+        "parameters": [
+          {
+            "name": "keyword",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 3
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/task-attachments/{taskId}": {
       "post": {
         "tags": [
           "TaskAttachment"
@@ -383,7 +422,7 @@
         }
       }
     },
-    "/api/TaskAttachment/{id}": {
+    "/api/task-attachments/{id}": {
       "delete": {
         "tags": [
           "TaskAttachment"
@@ -407,6 +446,16 @@
       }
     },
     "/api/task-comments": {
+      "get": {
+        "tags": [
+          "TaskComment"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
       "post": {
         "tags": [
           "TaskComment"
@@ -443,6 +492,27 @@
       }
     },
     "/api/task-comments/{id}": {
+      "get": {
+        "tags": [
+          "TaskComment"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
       "delete": {
         "tags": [
           "TaskComment"
@@ -465,7 +535,40 @@
         }
       }
     },
+    "/api/task-comments/task/{taskId}": {
+      "get": {
+        "tags": [
+          "TaskComment"
+        ],
+        "parameters": [
+          {
+            "name": "taskId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/task-labels": {
+      "get": {
+        "tags": [
+          "TaskLabel"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
       "post": {
         "tags": [
           "TaskLabel"
@@ -501,6 +604,29 @@
         }
       }
     },
+    "/api/task-labels/{id}": {
+      "get": {
+        "tags": [
+          "TaskLabel"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/task-labels/{taskId}/{labelId}": {
       "delete": {
         "tags": [
@@ -518,6 +644,29 @@
           },
           {
             "name": "labelId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/task-labels/task/{taskId}": {
+      "get": {
+        "tags": [
+          "TaskLabel"
+        ],
+        "parameters": [
+          {
+            "name": "taskId",
             "in": "path",
             "required": true,
             "schema": {
@@ -757,7 +906,6 @@
         "required": [
           "categoryId",
           "description",
-          "isCompleted",
           "title",
           "userId"
         ],

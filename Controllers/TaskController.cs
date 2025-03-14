@@ -3,6 +3,7 @@ using Azure.Core;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -15,24 +16,51 @@ namespace TaskManagementApi.Controllers
 {
     [Route("api/tasks")]
     [ApiController]
-    [Authorize]
-
+   // [Authorize]
     public class TaskController : ControllerBase
     {
         private readonly IGenericRepository<Models.Task> _taskRepository;
         private readonly IGenericRepository<Category> _categoryRepository;
         private readonly IGenericRepository<User> _userRepository;
+        private readonly IGenericRepository<TaskLabel> _taskLableRepository;
+        private readonly IGenericRepository<Label> _lableRepository;
+
         private readonly IMapper _mapper;
-        public TaskController(IGenericRepository<Models.Task> taskService, IGenericRepository<User> userRepository, IGenericRepository<Category> categoryRepository,IMapper mapper)
+        public TaskController(IGenericRepository<Models.Task> taskService, IGenericRepository<User> userRepository, IGenericRepository<Category> categoryRepository,IMapper mapper, IGenericRepository<TaskLabel> taskLableRepository, IGenericRepository<Label> lableRepository)
         {
             _taskRepository = taskService;
             _userRepository = userRepository;
             _categoryRepository = categoryRepository;
             _mapper = mapper;
+            _taskLableRepository = taskLableRepository;
+            _lableRepository = lableRepository;
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAllTasks()=> Ok(await _taskRepository.GetAll());
+        public async Task<IActionResult> GetAllTasks()
+        {
+            //return  Ok(await _taskRepository.GetAll());
+            var tasks = await _taskRepository.GetAll()
+             .Include(t => t.User)
+             .Include(t => t.Category)
+             .Include(t => t.TaskLabels)
+               .ThenInclude(tl => tl.Labels)
+             .ToListAsync();
+
+            var taskDtos = tasks.Select(task => new TaskDto
+            {
+                Id = task.Id,
+                Title = task.Title,
+                Description = task.Description,
+                IsCompleted = task.IsCompleted,
+                UserName = task.User?.UserName,
+                CategoryName = task.Category?.Name,
+                CreatedAt = task.CreatedAt,
+                Labels = task.TaskLabels?.Select(tl => tl.Labels?.Name).Where(name => name != null).ToList()
+            }).ToList();
+
+            return Ok(taskDtos);
+        }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetTaskById(int id)
@@ -150,6 +178,23 @@ namespace TaskManagementApi.Controllers
             return Ok(new { message = "Task deleted successfully.", taskId = id });
         }
 
+        [HttpGet("search")]
+        public IActionResult GetTasks(string? keyword, int page = 1, int pageSize = 3)
+        {
+            int totalItems;
 
+            var tasks = _taskRepository.GetPaged(
+                filter: t => string.IsNullOrEmpty(keyword) || t.Title.Contains(keyword) || t.Description.Contains(keyword) ,
+                page: page,
+                pageSize: pageSize
+            );
+
+            return Ok(new
+            {
+                Page = page,
+                PageSize = pageSize,
+                Data = tasks
+            });
+        }
     }
 }

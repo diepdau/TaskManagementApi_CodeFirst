@@ -12,7 +12,7 @@ namespace TaskManagementApi.Controllers
 {
     [Route("api/task-labels")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class TaskLabelController : ControllerBase
     {
         private readonly IGenericRepository<TaskLabel> _taskLabelRepository;
@@ -26,7 +26,20 @@ namespace TaskManagementApi.Controllers
             _labelRepository = labelRepository;
             _mapper = mapper;
         }
-
+        [HttpGet]
+        public async Task<IActionResult> GetAllTaskLabel()
+        {
+            var tasksLabels = _taskLabelRepository.GetAll();
+            return Ok(tasksLabels);
+        }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetTaskLabelByTaskId(int id)
+        {
+            var tasksLabel = await _taskLabelRepository.GetAsync(tl => tl.TaskId == id);
+            if (tasksLabel == null)
+                return NotFound("Task label not found.");
+            return Ok(tasksLabel);
+        }
         [HttpPost]
         public async Task<IActionResult> AddTaskLabel([FromBody] TaskLabelDto taskLabelDto)
         {
@@ -69,6 +82,31 @@ namespace TaskManagementApi.Controllers
 
             await _taskLabelRepository.DeleteT(taskLabel);
             return NoContent();
+        }
+        
+
+        [HttpGet("task/{taskId}")]
+        public async Task<IActionResult> GetTaskLabelsByTaskId(int taskId)
+        {
+            var task = await _taskRepository.GetById(taskId);
+            if (task == null)
+            {
+                return NotFound($"Task with Id {taskId} does not exist.");
+            }
+
+            var taskLabels = await _taskLabelRepository.GetAll()
+            .Where(tl => tl.TaskId == taskId)
+            .Include(tl => tl.Labels) 
+                .ToListAsync(); 
+
+            var result = taskLabels.Select(tl => new
+            {
+                tl.TaskId,
+                tl.LabelId,
+                LabelName = tl.Labels != null ? tl.Labels.Name : "Unknown"
+            });
+
+            return Ok(result);
         }
     }
 }
