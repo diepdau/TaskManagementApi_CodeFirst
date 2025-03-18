@@ -11,7 +11,7 @@ namespace TaskManagementApi.DTOs.TaskDto
         [Required(ErrorMessage = "Description is required.")]
         public string Description { get; set; }
         //[Required(ErrorMessage = "IsCompleted is required.")]
-        public bool IsCompleted { get; set; } = false;
+        public bool IsCompleted { get; set; }
         [Required(ErrorMessage = "UserId is required.")]
         [Range(1, int.MaxValue, ErrorMessage = "UserId must be greater than 0.")]
         [DefaultValue(1)]
@@ -29,6 +29,7 @@ namespace TaskManagementApi.DTOs.TaskDto
         public string? Description { get; set; }
         public bool? IsCompleted { get; set; }
         public string? CategoryName { get; set; }
+        public int? labelId { get; set; }
         public int? CategoryId { get; set; }
         public string? UserName { get; set; }
         public string? LabelName { get; set; }

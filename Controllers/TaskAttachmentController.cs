@@ -1,9 +1,13 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Azure.Storage.Blobs;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using System.ComponentModel.Design;
 using System.Linq;
 using TaskManagementApi.Interfaces;
 using TaskManagementApi.Models;
 using TaskManagementApi.Repositories;
+using TaskManagementApi.Services;
 
 namespace TaskManagementApi.Controllers
 {
@@ -54,7 +58,7 @@ namespace TaskManagementApi.Controllers
 
             if (files == null || files.Count == 0)
             {
-                return BadRequest("No files uploaded.");
+                return BadRequest("No file uploaded.");
             }
 
             List<TaskAttachment> attachments = new List<TaskAttachment>();
@@ -77,6 +81,21 @@ namespace TaskManagementApi.Controllers
 
             return Ok(attachments);
         }
+
+        [HttpGet("[action]/{fileName}")]
+        public async Task<IActionResult> DownloadFile(string fileName)
+        {
+            var fileResult = await _blobService.DownloadFileAsync(fileName);
+
+            if (fileResult == null)
+            {
+                return NotFound("File not found.");
+            }
+
+            return fileResult;
+        }
+
+
 
     }
 }

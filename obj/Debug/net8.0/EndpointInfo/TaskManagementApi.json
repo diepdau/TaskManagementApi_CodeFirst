@@ -445,6 +445,28 @@
         }
       }
     },
+    "/api/task-attachments/DownloadFile/{fileName}": {
+      "get": {
+        "tags": [
+          "TaskAttachment"
+        ],
+        "parameters": [
+          {
+            "name": "fileName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/task-comments": {
       "get": {
         "tags": [

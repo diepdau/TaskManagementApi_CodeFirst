@@ -147,6 +147,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TaskManagementApi.Controllers.TaskAttachmentController",
+    "Method": "DownloadFile",
+    "RelativePath": "api/task-attachments/DownloadFile/{fileName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TaskManagementApi.Controllers.TaskCommentController",
     "Method": "GetAllTaskComment",
     "RelativePath": "api/task-comments",

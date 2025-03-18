@@ -3,6 +3,7 @@ using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
 using Azure;
 using System.ComponentModel;
+using Microsoft.AspNetCore.Mvc;
 namespace TaskManagementApi.Services
 {
     public class BlobStorageService : IBlobStorageService
@@ -47,6 +48,26 @@ namespace TaskManagementApi.Services
             }
 
         }
+        public async Task<FileStreamResult> DownloadFileAsync(string fileName)
+        {
+            var blobContainer = _blobServiceClient.GetBlobContainerClient(_containerName);
+            var blobClient = blobContainer.GetBlobClient(fileName);
+
+            if (!await blobClient.ExistsAsync())
+            {
+                return null; 
+            }
+            var memoryStream = new MemoryStream();
+            await blobClient.DownloadToAsync(memoryStream);
+            memoryStream.Position = 0; 
+
+            var contentType = (await blobClient.GetPropertiesAsync()).Value.ContentType;
+            return new FileStreamResult(memoryStream, contentType)
+            {
+                FileDownloadName = fileName 
+            };
+        }
+
 
     }
 }

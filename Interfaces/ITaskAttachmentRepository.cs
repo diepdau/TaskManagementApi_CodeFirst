@@ -8,5 +8,6 @@ namespace TaskManagementApi.Interfaces
         Task<TaskAttachment> GetAttachmentsById(int id);
         System.Threading.Tasks.Task AddAttachment(TaskAttachment attachment);
         System.Threading.Tasks.Task DeleteAttachment(int id);
+
     }
 }
