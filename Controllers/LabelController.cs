@@ -10,7 +10,7 @@ namespace TaskManagementApi.Controllers
 {
     [Route("api/labels")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class LabelController : ControllerBase
     {
         private readonly IGenericRepository<Label> _labelRepository;

@@ -30,8 +30,8 @@ namespace TaskManagementApi.Controllers
         public async Task<IActionResult> GetAllCategories()
         {
             var categories =  _categoryRepository.GetAll();
-            var categoriesDto = _mapper.Map<IEnumerable<CategoryDto>>(categories);
-            return Ok(categoriesDto);
+            //var categoriesDto = _mapper.Map<IEnumerable<CategoryDto>>(categories);
+            return Ok(categories);
         }
 
         [HttpPost]

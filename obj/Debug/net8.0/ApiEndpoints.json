@@ -111,6 +111,22 @@
   },
   {
     "ContainingType": "TaskManagementApi.Controllers.TaskAttachmentController",
+    "Method": "GetAttachments",
+    "RelativePath": "api/task-attachments/{taskId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagementApi.Controllers.TaskAttachmentController",
     "Method": "UploadAttachments",
     "RelativePath": "api/task-attachments/{taskId}",
     "HttpMethod": "POST",
@@ -124,24 +140,8 @@
       },
       {
         "Name": "files",
-        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "Type": "Microsoft.AspNetCore.Http.IFormFileCollection",
         "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TaskManagementApi.Controllers.TaskAttachmentController",
-    "Method": "GetAttachments",
-    "RelativePath": "api/task-attachments/{taskId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "taskId",
-        "Type": "System.Int32",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []

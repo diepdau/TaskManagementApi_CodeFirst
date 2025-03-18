@@ -54,6 +54,7 @@ namespace TaskManagementApi.Controllers
                 Description = task.Description,
                 IsCompleted = task.IsCompleted,
                 UserName = task.User?.UserName,
+                CategoryId=task.CategoryId,
                 CategoryName = task.Category?.Name,
                 CreatedAt = task.CreatedAt,
                 Labels = task.TaskLabels?.Select(tl => tl.Labels?.Name).Where(name => name != null).ToList()
