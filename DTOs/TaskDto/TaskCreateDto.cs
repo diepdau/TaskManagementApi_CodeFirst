@@ -32,7 +32,6 @@ namespace TaskManagementApi.DTOs.TaskDto
         public int? labelId { get; set; }
         public int? CategoryId { get; set; }
         public string? UserName { get; set; }
-        public string? LabelName { get; set; }
         public DateTime? CreatedAt { get; set; }
         public List<string>? Labels { get; set; }
     }

@@ -63,12 +63,40 @@ namespace TaskManagementApi.Controllers
             return Ok(taskDtos);
         }
 
+        //[HttpGet("{id}")]
+        //public async Task<IActionResult> GetTaskById(int id)
+        //{
+        //    var task = await _taskRepository.GetById(id);
+        //    if (task == null) return NotFound();
+
+        //    return Ok(task);
+        //}
         [HttpGet("{id}")]
         public async Task<IActionResult> GetTaskById(int id)
         {
-            var task = await _taskRepository.GetById(id);
+            var task = await _taskRepository.GetAll()
+                .Include(t => t.User)
+                .Include(t => t.Category)
+                .Include(t => t.TaskLabels)
+                    .ThenInclude(tl => tl.Labels)
+                .FirstOrDefaultAsync(t => t.Id == id);
+
             if (task == null) return NotFound();
-            return Ok(task);
+
+            var taskDto = new TaskDto
+            {
+                Id = task.Id,
+                Title = task.Title,
+                Description = task.Description,
+                IsCompleted = task.IsCompleted,
+                UserName = task.User?.UserName,
+                CategoryId = task.CategoryId,
+                CategoryName = task.Category?.Name,
+                CreatedAt = task.CreatedAt,
+                Labels = task.TaskLabels?.Select(tl => tl.Labels?.Name).Where(name => name != null).ToList()
+            };
+
+            return Ok(taskDto);
         }
         [HttpPost]
         public async Task<IActionResult> AddTask([FromBody] TaskCreateDto taskDto)
