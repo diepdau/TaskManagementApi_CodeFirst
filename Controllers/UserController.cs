@@ -78,7 +78,24 @@ namespace TaskManagementApi.Controllers
 
             return NoContent();
         }
-        
+
+        [HttpGet("me")]
+        public async Task<IActionResult> GetAuthUser()
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            if (userId == null)
+                return Unauthorized(new { message = "User is not authenticated" });
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null)
+                return NotFound(new { message = "Authenticated user not found" });
+            var roles = await _userManager.GetRolesAsync(user);
+            var userDto = _mapper.Map<UserDto>(user);
+            userDto.Roles = roles;
+            return Ok(userDto);
+        }
+
+
 
     }
 }

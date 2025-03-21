@@ -482,5 +482,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagementApi.Controllers.UserController",
+    "Method": "GetAuthUser",
+    "RelativePath": "api/users/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

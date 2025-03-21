@@ -804,6 +804,18 @@
           }
         }
       }
+    },
+    "/api/users/me": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -957,6 +969,14 @@
             "type": "integer",
             "format": "int32",
             "default": 1
+          },
+          "labels": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
           },
           "createdAt": {
             "type": "string",

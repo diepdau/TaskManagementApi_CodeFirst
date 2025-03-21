@@ -114,16 +114,39 @@ namespace TaskManagementApi.Controllers
                 return BadRequest(new { Errors = errors });
             }
 
-            if (await _userRepository.GetById((int)taskDto.UserId) == null)
+            var user = await _userRepository.GetById((int)taskDto.UserId);
+            if (user == null)
                 return NotFound($"User with Id {taskDto.UserId} does not exist.");
 
-            if (await _categoryRepository.GetById((int)taskDto.CategoryId) == null)
+            var category = await _categoryRepository.GetById((int)taskDto.CategoryId);
+            if (category == null)
                 return NotFound($"Category with Id {taskDto.CategoryId} does not exist.");
 
             var task = _mapper.Map<Models.Task>(taskDto);
             await _taskRepository.Add(task);
+            if (taskDto.labels != null && taskDto.labels.Any())
+            {
+                foreach (var labelId in taskDto.labels)
+                {
+                    var label = await _lableRepository.GetById(labelId);
+                    if (label == null)
+                    {
+                        return NotFound($"Label with Id {labelId} does not exist.");
+                    }
+
+                    var taskLabel = new TaskLabel
+                    {
+                        TaskId = task.Id,
+                        LabelId = labelId
+                    };
+
+                    await _taskLableRepository.Add(taskLabel);
+                }
+            }
+
             return CreatedAtAction(nameof(GetTaskById), new { id = task.Id }, task);
         }
+
 
         [HttpPut("{id}")]
         public async Task<IActionResult>  UpdateTask(int id, [FromBody] TaskUpdateDto taskDto)
