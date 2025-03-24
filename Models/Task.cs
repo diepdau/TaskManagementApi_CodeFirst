@@ -14,7 +14,7 @@ namespace TaskManagementApi.Models
         public Category? Category { get; set; }
         public DateTime? CreatedAt { get; set; }
         public List<TaskComment>? TaskComments { get; set; }
-        public List<TaskLabel>? TaskLabels { get; set; }
+        public List<TaskLabel>? TaskLabels { get; set; } = new();
         public List<TaskAttachment>? TaskAttachments { get; set; }
     }
 }

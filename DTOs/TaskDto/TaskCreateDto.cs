@@ -20,7 +20,7 @@ namespace TaskManagementApi.DTOs.TaskDto
         [Range(1, int.MaxValue, ErrorMessage = "CategoryId must be greater than 0.")]
         [DefaultValue(1)]
         public int CategoryId { get; set; }
-        public List<int> labels { get; set; }
+        public List<int> labels { get; set; } = new();
         public DateTime? CreatedAt { get; set; } = DateTime.UtcNow;
     }
     public class TaskDto
@@ -34,6 +34,6 @@ namespace TaskManagementApi.DTOs.TaskDto
         public int? CategoryId { get; set; }
         public string? UserName { get; set; }
         public DateTime? CreatedAt { get; set; }
-        public List<string>? Labels { get; set; }
+        public List<string>? Labels { get; set; } = new();
     }
 }

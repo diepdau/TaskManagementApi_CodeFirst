@@ -16,6 +16,10 @@ namespace TaskManagementApi.Helpers
             CreateMap<TaskComment, TaskCommentDto>().ReverseMap();
             CreateMap<TaskLabel, TaskLabelDto>().ReverseMap();
             CreateMap<Label, LabelDto>().ReverseMap();
+            CreateMap<Models.Task, TaskDto>()
+            .ForMember(dest => dest.UserName, opt => opt.MapFrom(src => src.User != null ? src.User.UserName : null))
+            .ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category != null ? src.Category.Name : null))
+            .ForMember(dest => dest.Labels, opt => opt.MapFrom(src => src.TaskLabels.Select(tl => tl.Labels.Name).ToList()));
         }
     }
 }

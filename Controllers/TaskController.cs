@@ -39,7 +39,6 @@ namespace TaskManagementApi.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllTasks()
         {
-            //return  Ok(await _taskRepository.GetAll());
             var tasks = await _taskRepository.GetAll()
              .Include(t => t.User)
              .Include(t => t.Category)
@@ -47,19 +46,7 @@ namespace TaskManagementApi.Controllers
                .ThenInclude(tl => tl.Labels)
              .ToListAsync();
 
-            var taskDtos = tasks.Select(task => new TaskDto
-            {
-                Id = task.Id,
-                Title = task.Title,
-                Description = task.Description,
-                IsCompleted = task.IsCompleted,
-                UserName = task.User?.UserName,
-                CategoryId=task.CategoryId,
-                CategoryName = task.Category?.Name,
-                CreatedAt = task.CreatedAt,
-                Labels = task.TaskLabels?.Select(tl => tl.Labels?.Name).Where(name => name != null).ToList()
-            }).ToList();
-
+            var taskDtos = _mapper.Map<List<TaskDto>>(tasks);
             return Ok(taskDtos);
         }
 
@@ -83,19 +70,7 @@ namespace TaskManagementApi.Controllers
 
             if (task == null) return NotFound();
 
-            var taskDto = new TaskDto
-            {
-                Id = task.Id,
-                Title = task.Title,
-                Description = task.Description,
-                IsCompleted = task.IsCompleted,
-                UserName = task.User?.UserName,
-                CategoryId = task.CategoryId,
-                CategoryName = task.Category?.Name,
-                CreatedAt = task.CreatedAt,
-                Labels = task.TaskLabels?.Select(tl => tl.Labels?.Name).Where(name => name != null).ToList()
-            };
-
+            var taskDto = _mapper.Map<TaskDto>(task);
             return Ok(taskDto);
         }
         [HttpPost]
